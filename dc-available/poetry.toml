@@ -1,0 +1,5 @@
+# Copyright (c) 2023 Robert Bosch GmbH and its subsidiaries. All rights reserved.
+
+[virtualenvs]
+create = true
+in-project = true

@@ -1,0 +1,10 @@
+topic,engine,hit@1,hit@5,hit@10,mrr
+grownfield,entity_1hop,0.4138,0.6897,0.7241,0.5374
+grownfield,entity_3hop,0.3103,0.5172,0.5172,0.4080
+grownfield,ppr,0.3103,0.7586,0.7586,0.4839
+hydraulics,entity_1hop,0.9153,0.9492,0.9492,0.9322
+hydraulics,entity_3hop,0.9322,0.9492,0.9492,0.9407
+hydraulics,ppr,0.9153,0.9492,0.9492,0.9322
+combined(n=88),entity_1hop,0.7500,0.8637,0.8750,0.8021
+combined(n=88),entity_3hop,0.7273,0.8068,0.8068,0.7652
+combined(n=88),ppr,0.7159,0.8864,0.8864,0.7845

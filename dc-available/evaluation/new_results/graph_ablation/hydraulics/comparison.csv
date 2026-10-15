@@ -1,0 +1,109 @@
+question_id,question,golden_source,entity_1hop_top10,entity_3hop_top10,ppr_top10
+q1,Wodurch entsteht in der Hydrostatik eine Kraftwirkung?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,"01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G
+35n___CytroPac   Profinet___EN
+11+20___Agenda + Overview_Datum falsch___neues Design",01_Teilnehmerunterlage_RT04-004_DE
+q2,Nennen Sie 5 spezielle Eigenschaften der Hydraulik.,01_teilnehmerunterlage_rt04-004_de,"01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G
+33n___CytroPac   IO-Diagnostics___EN
+35n___CytroPac   Profinet___EN
+11+20___Agenda + Overview_Datum falsch___neues Design","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G"
+q3,In welcher Größenordnung bewegt sich normalerweise der Gesamtwirkungsgrad nges einer Hydraulikanlage?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q4,Wie würden Sie den Grundaufbau einer Hydraulikanlage beschreiben?,01_teilnehmerunterlage_rt04-004_de,"01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G
+33n___CytroPac   IO-Diagnostics___EN
+11+20___Agenda + Overview_Datum falsch___neues Design
+35n___CytroPac   Profinet___EN","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G"
+q5,Nennen Sie mindestens 4 Bauteile aus dem Energieversorgungsteil und mindestens 3 Bauteile aus dem Steuerungsteil.,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q6,"Wo liegt auf der Absolutdruckskala der Wert für den „Unterdruck“ von p_e = 0,3 bar?",01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q7,Die Einheit für den Druck ist Pascal (Pa). Welche Aussage ist richtig?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q8,Eine Masse von m = 1.200 kg soll hochgehoben werden. Der max. Betriebsduck beträgt p = 120 bar. Wie groß ist der erforderliche Kolbendurchmesser in mm?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q9,Skizzieren Sie einen Druckübersetzer und beschriften Sie die „Parameter“. Ergänzen Sie die Skizze mit der korrekten Formel für die Druck- und Flächenverhältnisse. Wo werden z. B. Druckübersetzer in der Praxis eingesetzt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q10,Worin besteht der wesentliche Unterschied zwischen Druckübersetzung und Kraftübersetzung hinsichtlich der Flüssigkeitsräume?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q11,Welche Aussage hinsichtlich des Volumenstroms q in einer Hydroanlage ist korrekt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q12,Welche Aussage bezüglich der max. zulässigen Strömungsgeschwindigkeit vmax in einer Saugleitung (Saugbetrieb) ist richtig?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q13,"Was muss vorliegen, damit ein Fluid überhaupt strömen kann?",01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q14,Worin liegt der wesentliche Unterschied hinsichtlich der auftretenden Druckverluste bei laminarer bzw. turbulenter Strömung?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q15,Wo kann man in einem hydraulischen System im Allgemeinen den höchsten Druck messen? (Mit Begründung!),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q16,Welche Aussage ist richtig?,01_teilnehmerunterlage_rt04-004_de,"STI-01.020 Warehouse Monitoring
+P2S-02.010 Make to Stock
+R2S-01.010 Create Service Quotation","STI-01.020 Warehouse Monitoring
+P2S-02.010 Make to Stock
+R2S-01.010 Create Service Quotation","P2S-02.010 Make to Stock
+R2S-02.030 Create Service Quotation (Inhouse Repair)"
+q17,In welcher Schaltstellung werden Ventile im Schaltplan dargestellt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q18,Was bedeutet bei Wegeventilen die Angabe 4/3?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q19,Welche Aufgaben haben Hydropumpen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q20,Wie entsteht der Druck in einer Anlage?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q21,Welche Haupt-Parameter haben einen Einfluss auf den Pumpenvolumenstrom?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q22,"Die hydraulische Leistung einer Pumpe wird größer, wenn",01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q23,Welche Aussage ist richtig?,01_teilnehmerunterlage_rt04-004_de,"STI-01.020 Warehouse Monitoring
+P2S-02.010 Make to Stock
+R2S-01.010 Create Service Quotation","STI-01.020 Warehouse Monitoring
+P2S-02.010 Make to Stock
+R2S-01.010 Create Service Quotation","P2S-02.010 Make to Stock
+R2S-02.030 Create Service Quotation (Inhouse Repair)"
+q24,Mit steigendem Druck wird der Pumpenvolumenstrom (bei sonst unveränderlichen Randdaten!),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q25,"Warum sollte der Eingangsdruck bei Pumpen den Wert von p_abs.,min = 0,8 bar (dauerhaft) nicht unterschreiten?",01_teilnehmerunterlage_rt04-004_de,"35n___CytroPac   Profinet___EN
+01_Teilnehmerunterlage_RT04-004_DE","01_Teilnehmerunterlage_RT04-004_DE
+11+20___Agenda + Overview_Datum falsch___neues Design","35n___CytroPac   Profinet___EN
+01_Teilnehmerunterlage_RT04-004_DE"
+q26,Ermitteln Sie die jeweilige hydraulische Leistung.,01_teilnehmerunterlage_rt04-004_de,"01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G
+33n___CytroPac   IO-Diagnostics___EN
+35n___CytroPac   Profinet___EN
+11+20___Agenda + Overview_Datum falsch___neues Design","01_Teilnehmerunterlage_RT04-004_DE
+10___Start_Organisation HED-G"
+q27,Bei Hydropumpen spricht man von Verdrängungsvolumen. Wie lautet die entsprechende Bezeichnung bei Hydromotoren?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q28,Benennen Sie die mechanischen und hydraulischen „Eingangs- und Ausgangsgrößen“ von Pumpen und Motoren.,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q29,Warum werden Hydrozylinder im Allgemeinen mit Endlagendämpfungen ausgerüstet?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q30,Welche Aufgabe haben Sperrventile?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q31,Welche Dichtelementformen werden bei Sperrventilen eingesetzt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q32,Welche Aussage hinsichtlich des Dichtverhaltens bei Sperrventilen ist korrekt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q33,Was ist die Aufgabe von Wegeventilen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q34,Welche beiden gängigen Varianten existieren bei den Wegeventilen? Welche von beiden weist im Allgemeinen Leckage auf und warum?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q35,Wodurch wird das Schaltverhalten eines Schieberventils maßgeblich beeinflusst? Bei welcher Variante treten 'positive' Druckspitzen auf?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q36,Wo sind Wegesitzventile hauptsächlich anzutreffen und warum?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q37,Wann und warum werden vorgesteuerte Wegeventile eingesetzt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q38,Durch welche 4 Hauptkriterien wird die Qualität eines Wegeventils mit Schieber gekennzeichnet?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q39,Welche Aussage ist korrekt? Welche NG's werden in der Stationärhydraulik im Allgemeinen direktgesteuert? Welche vorgesteuert?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q40,Nach dem Öffnen eines Druckbegrenzungsventils (DB),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q41,Wo wird bei einem direktbetätigten Druckbegrenzungsventil der Steuerdruck abgegriffen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q42,"Zwei Druckbegrenzungsventile wurden separat bei einem definierten Volumenstrom qv auf dem Prüfstand auf einen Druck von jeweils 60 bar eingestellt. Welcher Druck wird vor dem ersten abgelesen, wenn beide Ventile in Reihe geschaltet und von qv durchströmt werden?",01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q43,"Welcher Druck würde sich einstellen, wenn die beiden Ventile parallel geschaltet werden?",01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q44,Wann werden vorgesteuerte Druckbegrenzungsventile hauptsächlich eingesetzt?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q45,Wie sehen die Kennlinien von direktbetätigten und vorgesteuerten Druckbegrenzungsventilen prinzipiell aus?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q46,Wo wird das Steuerdrucksignal bei Druckreduzierventilen abgegriffen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q47,Was ist die Aufgabe von Stromventilen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q48,Welche zwei Drosseltypen kennen Sie?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q49,Welche Faktoren beeinflussen die Höhe des Volumenstroms durch eine Blende?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q50,Bei Vervierfachung des an einer Blende anstehenden Δp's (= Druckgefälles),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q51,Hat bei temperaturkompensierten 2-Wege-Stromregelventilen der Lastdruck einen Einfluss auf den Volumenstrom? (mit Begründung),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q52,Welches Flüssigkeitsvolumen VB sollte in der Stationärhydraulik der Behälter aufweisen?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q53,Nennen Sie 4 Hauptaufgaben der Druckflüssigkeiten.,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q54,Mit sinkender Öl-Temperatur wird das Öl,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q55,Welche Aussage ist richtig? (gleicher Druck in allen 3 Fällen),01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q56,Was bewirkt ungelöste Luft in der Druckflüssigkeit hinsichtlich seiner Zusammendrückbarkeit?,01_teilnehmerunterlage_rt04-004_de,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE,01_Teilnehmerunterlage_RT04-004_DE
+q57,"Was könnten die Ursachen von a) Dunkelfärbung, b) milchiger Trübung, c) Luftbläschen im Öl sein?",01_teilnehmerunterlage_rt04-004_de,"01_Teilnehmerunterlage_RT04-004_DE
+Q2E-02.060 Sales Logistics Customer Complaint FIORI","01_Teilnehmerunterlage_RT04-004_DE
+Q2E-02.060 Sales Logistics Customer Complaint FIORI","01_Teilnehmerunterlage_RT04-004_DE
+Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+q58,Was ist die Hauptaufgabe von Filtern?,01_teilnehmerunterlage_rt04-004_de,"O2C-00.005 Process Control Elements
+01_Teilnehmerunterlage_RT04-004_DE","O2C-00.005 Process Control Elements
+01_Teilnehmerunterlage_RT04-004_DE
+R2S-02.120 BBX NSGS Process
+O2C-03.022 Package Goods NSGS Material
+O2C-03.020 Package Goods Standards
+O2C-04.022 Manage Credit Memo Request - DownPayment Invoice
+R2S-02.090 Create Advanced Shipment Sales Order
+O2C-03.031 Assign Freight Forwarder - automatically (Material Weight)","O2C-00.005 Process Control Elements
+01_Teilnehmerunterlage_RT04-004_DE"
+q59,Kann frisches Fassöl bedenkenlos eingefüllt werden?,01_teilnehmerunterlage_rt04-004_de,"O2C-03.051 Execute Transport - Loading
+O2C-04.011 Manage Customer Billing - Free of Charge","O2C-03.051 Execute Transport - Loading
+R2S-02.120 BBX NSGS Process","O2C-03.051 Execute Transport - Loading
+O2C-03.020 Package Goods Standards"

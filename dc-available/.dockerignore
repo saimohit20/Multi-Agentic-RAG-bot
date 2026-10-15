@@ -1,0 +1,76 @@
+.cache
+.venv
+.streamlit
+dc_available/data/
+
+# Large resource folders — mounted as volumes at runtime in docker-compose.pipeline.yml
+# Excluding them keeps the build context small and fast.
+resources/DC_data/
+resources/artifacts/
+resources/available_handbook/
+tmp
+main_data_test/temp_uploads
+main_data_test/TEST_data
+main_data_test/DC_data/BasicTraining*
+main_data_test/DC_data/DigitalTransformation
+main_data_test/DC_data/Hydraulics
+expriment
+
+
+# Ignore sensitive files
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Ignore development files
+.git/
+.gitignore
+README.md
+*.md
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

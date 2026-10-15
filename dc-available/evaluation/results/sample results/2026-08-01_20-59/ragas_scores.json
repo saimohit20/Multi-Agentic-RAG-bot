@@ -1,0 +1,20 @@
+{
+  "vector": {
+    "n": 17,
+    "faithfulness": 0.9652,
+    "answer_relevancy": 0.7548,
+    "answer_correctness": 0.2416
+  },
+  "graph": {
+    "n": 17,
+    "faithfulness": 0.9384,
+    "answer_relevancy": 0.6865,
+    "answer_correctness": 0.1377
+  },
+  "hybrid": {
+    "n": 17,
+    "faithfulness": 0.9704,
+    "answer_relevancy": 0.6895,
+    "answer_correctness": 0.2578
+  }
+}

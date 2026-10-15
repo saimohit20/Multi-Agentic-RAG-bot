@@ -1,0 +1,72 @@
+# =============================================================================
+# qdrant.yaml  —  the vector database (Service + StatefulSet + its own disk).
+#
+# WHY StatefulSet (not Deployment)? Qdrant has DATA that must survive restarts,
+# so it needs its own stable disk. The Service gives it the stable address
+# 'qdrant' -> the app + pipeline reach it at  http://qdrant:6333  (same as
+# localhost:6333 on your laptop, just a cluster name).
+#
+# Storage = Azure DISK (ReadWriteOnce, fast, single-pod) — the right choice for
+# a database, unlike the shared Azure Files used for the data folder.
+#
+# Apply:  kubectl apply -f deployment/kubernetes/qdrant.yaml
+# =============================================================================
+apiVersion: v1
+kind: Service
+metadata:
+  name: qdrant
+  namespace: available-2
+spec:
+  clusterIP: None            # headless -> DNS 'qdrant' resolves to the pod
+  selector:
+    app: qdrant
+  ports:
+    - name: rest
+      port: 6333
+      targetPort: 6333
+    - name: grpc
+      port: 6334
+      targetPort: 6334
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: qdrant
+  namespace: available-2
+spec:
+  serviceName: qdrant
+  replicas: 1
+  selector:
+    matchLabels:
+      app: qdrant
+  template:
+    metadata:
+      labels:
+        app: qdrant
+    spec:
+      containers:
+        - name: qdrant
+          image: qdrant/qdrant:latest
+          ports:
+            - containerPort: 6333
+            - containerPort: 6334
+          volumeMounts:
+            - name: storage
+              mountPath: /qdrant/storage
+          readinessProbe:
+            httpGet: { path: /healthz, port: 6333 }
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests: { cpu: "250m", memory: "512Mi" }
+            limits:   { cpu: "1",    memory: "2Gi" }
+  # A StatefulSet creates its own PVC from this template (one disk per replica).
+  volumeClaimTemplates:
+    - metadata:
+        name: storage
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        storageClassName: managed-csi     # Azure Disk
+        resources:
+          requests:
+            storage: 20Gi                 # the collection is small; 20Gi is plenty

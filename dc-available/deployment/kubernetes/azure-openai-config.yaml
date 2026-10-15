@@ -1,0 +1,20 @@
+# =============================================================================
+# azure-openai-config.yaml  —  NON-secret config for Azure OpenAI.
+#
+# Your app authenticates to Azure OpenAI with an Azure AD IDENTITY
+# (DefaultAzureCredential in llm_config.py), NOT an API key. So there is no
+# secret here — only the endpoint + API version. Auth itself is handled by
+# Workload Identity (see workload-identity-sa.yaml).
+#
+# A ConfigMap = plain, non-secret key/values injected as env vars.
+# Apply:  kubectl apply -f deployment/kubernetes/azure-openai-config.yaml
+# =============================================================================
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: available-openai
+  namespace: available-2
+data:
+  # Match your Azure OpenAI resource (llm_config.py reads AZURE_ENDPOINT / API_VERSION).
+  AZURE_ENDPOINT: "https://gum1u-m7konvso-swedencentral.cognitiveservices.azure.com/"
+  API_VERSION: "2024-02-15-preview"

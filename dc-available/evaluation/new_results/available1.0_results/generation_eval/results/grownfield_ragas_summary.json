@@ -1,0 +1,8 @@
+{
+  "grownfield": {
+    "faithfulness": 0.831910839076171,
+    "answer_relevancy": 0.8627569657368904,
+    "context_precision": 0.3614964343115054,
+    "context_recall": 0.5226017943409247
+  }
+}

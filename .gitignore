@@ -1,0 +1,9 @@
+dc-available/dc_available/data/
+dc-available/.venv/
+dc-available/.cache/
+**/__pycache__/
+**/.env
+**/*.local.yaml
+dc-available/deployment/kubernetes/*secret*
+
+dc-available/deployment/snapshots/

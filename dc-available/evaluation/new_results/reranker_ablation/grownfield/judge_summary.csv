@@ -1,0 +1,4 @@
+config,n_scored,judge_correctness,n_correct,n_partial,n_incorrect,ragas_faithfulness,ragas_answer_relevancy,ragas_context_precision,ragas_answer_correctness
+no_rerank,29,0.6724,15,9,5,0.9049,0.9183,0.5575,0.2764
+base,29,0.6897,14,12,3,0.8883,0.8721,0.6619,0.2451
+v2m3,29,0.6207,12,12,5,0.9101,0.9022,0.7328,0.2834

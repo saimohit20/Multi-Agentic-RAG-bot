@@ -1,0 +1,29 @@
+# =============================================================================
+# mirror-pvc.yaml  →  the single shared data disk 'available-data'.
+# (Renamed from a mirror-only disk: one volume now holds EVERYTHING under
+#  dc_available/data/ so the whole pipeline + serve share it.)
+#
+#   /app/dc_available/data/
+#     ├── local_sharepoint/     ← sync writes the raw mirror + .manifest.json
+#     ├── Artifacts/            ← preprocess/index write ingestion, index, graph
+#     └── Extracted_resources/  ← preprocess writes images/pptx/pdf/video
+#
+# Azure Files + ReadWriteMany (RWX) so the pipeline CronJob (writes) and the
+# serve Deployment (reads) can use it at the same time.
+#
+# Apply:  kubectl apply -f deployment/kubernetes/mirror-pvc.yaml
+# =============================================================================
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: available-data
+  namespace: available-2
+spec:
+  accessModes:
+    - ReadWriteMany
+  storageClassName: azurefile-csi     # built-in AKS storage class for Azure Files
+  resources:
+    requests:
+      # Holds raw SharePoint content + extracted copies (videos duplicate!) +
+      # artifacts. Start large; a PVC can grow later but not shrink.
+      storage: 200Gi

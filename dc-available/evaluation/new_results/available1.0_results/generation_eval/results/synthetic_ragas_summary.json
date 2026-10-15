@@ -1,0 +1,8 @@
+{
+  "synthetic": {
+    "faithfulness": 0.8711496921670697,
+    "answer_relevancy": 0.9197319395499066,
+    "context_precision": 0.6635807555955068,
+    "context_recall": 0.8629971412433286
+  }
+}

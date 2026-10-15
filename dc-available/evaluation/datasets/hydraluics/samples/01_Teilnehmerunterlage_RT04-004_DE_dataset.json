@@ -1,0 +1,537 @@
+[
+    {
+        "question": "Wodurch entsteht in der Hydrostatik eine Kraftwirkung?",
+        "answer": "Druck • Fläche",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Nennen Sie 5 spezielle Eigenschaften der Hydraulik.",
+        "answer": [
+            "Hohe Kraftdichte",
+            "Leichter Überlastschutz",
+            "Bauteile mit Normanschlüssen",
+            "Freie Anordnung der Komponenten im Raum möglich",
+            "Anfahren unter Volllast möglich"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "In welcher Größenordnung bewegt sich normalerweise der Gesamtwirkungsgrad nges einer Hydraulikanlage?",
+        "answer": "40 - 85%",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Wie würden Sie den Grundaufbau einer Hydraulikanlage beschreiben?",
+        "answer": "Energieversorgungsteil, Steuerungsteil, Verbraucherteil, Zubehör",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "summary"
+    },
+    {
+        "question": "Nennen Sie mindestens 4 Bauteile aus dem Energieversorgungsteil und mindestens 3 Bauteile aus dem Steuerungsteil.",
+        "answer": {
+            "Energieversorgungsteil": [
+                "Pumpe",
+                "Druckbegrenzungsventil",
+                "Rücklauffilter",
+                "Hydraulikflüssigkeit"
+            ],
+            "Steuerungsteil": [
+                "Sperrventil",
+                "Wegeventil",
+                "Stromventil"
+            ]
+        },
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Wo liegt auf der Absolutdruckskala der Wert für den „Unterdruck“ von p_e = 0,3 bar?",
+        "answer": "0,7 bar auf der Absolutdruckskala (p_abs = p_e + p_amb = -0,3 bar + 1 bar = 0,7 bar, wenn man von einem Umgebungsdruck von 1 bar ausgeht).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Die Einheit für den Druck ist Pascal (Pa). Welche Aussage ist richtig?",
+        "answer": [
+            "1 Pa = 1 N/m²",
+            "1 bar = 100.000 N/m²"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Eine Masse von m = 1.200 kg soll hochgehoben werden. Der max. Betriebsduck beträgt p = 120 bar. Wie groß ist der erforderliche Kolbendurchmesser in mm?",
+        "answer": "d ≈ 36 mm",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Skizzieren Sie einen Druckübersetzer und beschriften Sie die „Parameter“. Ergänzen Sie die Skizze mit der korrekten Formel für die Druck- und Flächenverhältnisse. Wo werden z. B. Druckübersetzer in der Praxis eingesetzt?",
+        "answer": "Formel: p1/p2 = A2/A1. Einsatz z.B. bei Innenhochdruckumformung.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Worin besteht der wesentliche Unterschied zwischen Druckübersetzung und Kraftübersetzung hinsichtlich der Flüssigkeitsräume?",
+        "answer": "Bei der Druckübersetzung sind die Flüssigkeitsräume getrennt, bei der Kraftübersetzung existiert nur ein einziger flüssigkeitsgefüllter Raum.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Aussage hinsichtlich des Volumenstroms q in einer Hydroanlage ist korrekt?",
+        "answer": "q = A • v",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Welche Aussage bezüglich der max. zulässigen Strömungsgeschwindigkeit vmax in einer Saugleitung (Saugbetrieb) ist richtig?",
+        "answer": "Die Strömungsgeschwindigkeit darf 0,8 m/s nicht übersteigen",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Was muss vorliegen, damit ein Fluid überhaupt strömen kann?",
+        "answer": "Es muss ein Druckunterschied vorliegen, das sogenannte Δp („delta p“).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Worin liegt der wesentliche Unterschied hinsichtlich der auftretenden Druckverluste bei laminarer bzw. turbulenter Strömung?",
+        "answer": "Bei der laminaren Strömung sind die Druckverluste wesentlich geringer als bei der turbulenten Strömung.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wo kann man in einem hydraulischen System im Allgemeinen den höchsten Druck messen? (Mit Begründung!)",
+        "answer": "Direkt hinter dem Pumpendruckstutzen. Mit steigender Entfernung von der Pumpe sinkt der Druck in der Flüssigkeit ab, aufgrund von z. B. Flüssigkeitsreibung, der Widerstände verbauter Komponenten, etc.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Aussage ist richtig?",
+        "answer": "Symbole zeigen nur die Funktion des eingesetzten Bauteils. Der konstruktive Aufbau kann aus dem Symbol nicht abgelesen werden.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "In welcher Schaltstellung werden Ventile im Schaltplan dargestellt?",
+        "answer": "(normalerweise) unbetätigt, in Ruhestellung, stromlos, ... (Hinweis: wenn sie in betätigter Stellung gezeigt werden, muss dies im Schaltplan vermerkt werden!)",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Was bedeutet bei Wegeventilen die Angabe 4/3?",
+        "answer": "4/3 bedeutet 4 nutzbare Anschlüsse und 3 Schaltstellungen.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Welche Aufgaben haben Hydropumpen?",
+        "answer": [
+            "Sie wandeln die mechanische Antriebsleistung in hydraulische Leistung um.",
+            "Sie erzeugen einen Volumenstrom."
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wie entsteht der Druck in einer Anlage?",
+        "answer": "Durch die Last und die diversen Widerstände, die dem Flüssigkeitsstrom entgegenwirken.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Haupt-Parameter haben einen Einfluss auf den Pumpenvolumenstrom?",
+        "answer": [
+            "Verdrängungsvolumen Vg",
+            "Drehzahl n der Pumpenwelle",
+            "(der volumetrische Wirkungsgrad ηvol.)"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Die hydraulische Leistung einer Pumpe wird größer, wenn",
+        "answer": "Druck und Volumenstrom zunehmen.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Aussage ist richtig?",
+        "answer": "Die hydraulische Leistung der Pumpe ist immer geringer als die Antriebsleistung des E-Motors",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Mit steigendem Druck wird der Pumpenvolumenstrom (bei sonst unveränderlichen Randdaten!)",
+        "answer": "geringer (wegen dem volumetrischem Wirkungsgrad!).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Warum sollte der Eingangsdruck bei Pumpen den Wert von p_abs.,min = 0,8 bar (dauerhaft) nicht unterschreiten?",
+        "answer": "Bei dauerhafter Unterschreitung besteht die Gefahr von Kavitation (schlagartiges Freisetzen gelöster Luft).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Ermitteln Sie die jeweilige hydraulische Leistung.",
+        "answer": {
+            "Schaltung a": "5,00 kW",
+            "Schaltung b": "0,30 kW",
+            "Schaltung c": "0,33 kW"
+        },
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Bei Hydropumpen spricht man von Verdrängungsvolumen. Wie lautet die entsprechende Bezeichnung bei Hydromotoren?",
+        "answer": "Schluckvolumen",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Benennen Sie die mechanischen und hydraulischen „Eingangs- und Ausgangsgrößen“ von Pumpen und Motoren.",
+        "answer": {
+            "Pumpe": {
+                "Eingang": "Drehmoment und Drehzahl",
+                "Ausgang": "Volumenstrom und Druck"
+            },
+            "Motor": {
+                "Eingang": "Volumenstrom und Druck",
+                "Ausgang": "Drehmoment und Drehzahl, Kraft und Geschwindigkeit (beim Zylinder)"
+            }
+        },
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Warum werden Hydrozylinder im Allgemeinen mit Endlagendämpfungen ausgerüstet?",
+        "answer": "Gerade bei hohen Stangengeschwindigkeiten und großen bewegten Lasten kann es beim ungebremsten Einfahren in die Endlage(n) zu Beschädigungen kommen.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Aufgabe haben Sperrventile?",
+        "answer": "Vorzugsweise in eine Richtung „freien“ Durchfluss gewähren, in der anderen Richtung sperren.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Dichtelementformen werden bei Sperrventilen eingesetzt?",
+        "answer": [
+            "Kegel",
+            "Kugel",
+            "Platte / Teller"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Welche Aussage hinsichtlich des Dichtverhaltens bei Sperrventilen ist korrekt?",
+        "answer": "Sie sperren leckagefrei.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Was ist die Aufgabe von Wegeventilen?",
+        "answer": "Durchflusswege in Anlagen öffnen, sperren und ändern.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche beiden gängigen Varianten existieren bei den Wegeventilen? Welche von beiden weist im Allgemeinen Leckage auf und warum?",
+        "answer": "Varianten: Schieber-Ventile und Sitz-Ventile. Leckage: Schieber-Ventile weisen wegen des (normalerweise nicht abgedichteten) Ringspalts Leckage auf.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wodurch wird das Schaltverhalten eines Schieberventils maßgeblich beeinflusst? Bei welcher Variante treten 'positive' Druckspitzen auf?",
+        "answer": "Das Schaltverhalten wird durch die sogenannte Schaltüberdeckung beeinflusst. Positive Druckspitzen treten bei der positiven Schaltüberdeckung auf.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wo sind Wegesitzventile hauptsächlich anzutreffen und warum?",
+        "answer": "Anzutreffen in der Spannhydraulik, im Pressenbau, .... Wegen ihrer Leckagefreiheit besitzen Sitzventile ein Lasthaltevermögen.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wann und warum werden vorgesteuerte Wegeventile eingesetzt?",
+        "answer": "Bei großen umgesetzten hydraulischen Leistungen, v. a. bei großen Volumenströmen da hier die im Ventil auftretenden Strömungskräfte nicht mehr zu vernachlässigen sind und die Betätigungskräfte zu groß würden. Einsatz ab NG 10.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Durch welche 4 Hauptkriterien wird die Qualität eines Wegeventils mit Schieber gekennzeichnet?",
+        "answer": [
+            "Dynamische Leistungsgrenze",
+            "Interner Ventilwiderstand",
+            "Höhe der Leckage",
+            "Schaltzeit"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Welche Aussage ist korrekt? Welche NG's werden in der Stationärhydraulik im Allgemeinen direktgesteuert? Welche vorgesteuert?",
+        "answer": {
+            "Aussage": "Die Symbole sind NG-unabhängig.",
+            "Direktgesteuert": "NG 4 bis NG 10.",
+            "Vorgesteuert": "NG 10 bis NG 32 (und größer)."
+        },
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Nach dem Öffnen eines Druckbegrenzungsventils (DB)",
+        "answer": "strömt die Flüssigkeit unter Aufrechterhaltung des Drucks vor dem DB ab.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wo wird bei einem direktbetätigten Druckbegrenzungsventil der Steuerdruck abgegriffen?",
+        "answer": "Intern, am Eingang des Ventils.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Zwei Druckbegrenzungsventile wurden separat bei einem definierten Volumenstrom qv auf dem Prüfstand auf einen Druck von jeweils 60 bar eingestellt. Welcher Druck wird vor dem ersten abgelesen, wenn beide Ventile in Reihe geschaltet und von qv durchströmt werden?",
+        "answer": "120 bar (Widerstände in Reihe addieren sich).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Welcher Druck würde sich einstellen, wenn die beiden Ventile parallel geschaltet werden?",
+        "answer": "60 bar.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Wann werden vorgesteuerte Druckbegrenzungsventile hauptsächlich eingesetzt?",
+        "answer": "Bei großen umgesetzten hydraulischen Leistungen, v. a. bei großen Volumenströmen, da diese große Durchflussquerschnitte erfordern, die druck-beaufschlagten Flächen und somit die Betätigungskräfte dementsprechend groß würden. Ab NG 6.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wie sehen die Kennlinien von direktbetätigten und vorgesteuerten Druckbegrenzungsventilen prinzipiell aus?",
+        "answer": "Bei direktbetätigten Druckbegrenzungsventilen erhöht sich im Allgemeinen mit steigendem Volumenstrom der ursprünglich eingestellte Druck. Bei vorgesteuerten Druckbegrenzungsventilen ist dies im Allgemeinen nicht der Fall; deren Kennlinien verlaufen wesentlich flacher.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Wo wird das Steuerdrucksignal bei Druckreduzierventilen abgegriffen?",
+        "answer": "Intern, am Ausgang des Ventils.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Was ist die Aufgabe von Stromventilen?",
+        "answer": "In Kombination mit einer anderen Komponente (z. B. einem Druckbegrenzungsventil) kommt es zur Beeinflussung der Abtriebsgeschwindigkeit von Verbrauchern durch Änderung der Querschnittsfläche (Vergrößerung/Verkleinerung) an der Drosselstelle.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche zwei Drosseltypen kennen Sie?",
+        "answer": "Drossel und Blende.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Welche Faktoren beeinflussen die Höhe des Volumenstroms durch eine Blende?",
+        "answer": "In einem weiten Temperaturbereich nur der Durchflussquerschnitt und die an der Drosselstelle anstehende Druckdifferenz Δp.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Bei Vervierfachung des an einer Blende anstehenden Δp's (= Druckgefälles)",
+        "answer": "verdoppelt sich der Volumenstrom.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "application"
+    },
+    {
+        "question": "Hat bei temperaturkompensierten 2-Wege-Stromregelventilen der Lastdruck einen Einfluss auf den Volumenstrom? (mit Begründung)",
+        "answer": "Nein. Solange über die intern verbaute Druckwaage die Druckdifferenz an der Drosselstelle konstant gehalten werden kann, bleibt auch der Volumenstrom konstant.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welches Flüssigkeitsvolumen VB sollte in der Stationärhydraulik der Behälter aufweisen?",
+        "answer": "VB = 3 ... 5 • QV,P",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Nennen Sie 4 Hauptaufgaben der Druckflüssigkeiten.",
+        "answer": [
+            "Übertragen von Kräften, Bewegungen und Signalen",
+            "Kühlen, Schmieren und Abdichten",
+            "Geräusch- und Schwingungsdämpfung",
+            "Schmutztransport"
+        ],
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "factual"
+    },
+    {
+        "question": "Mit sinkender Öl-Temperatur wird das Öl",
+        "answer": "dickflüssiger.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Welche Aussage ist richtig? (gleicher Druck in allen 3 Fällen)",
+        "answer": "Luft lässt sich stärker komprimieren als Öl",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Was bewirkt ungelöste Luft in der Druckflüssigkeit hinsichtlich seiner Zusammendrückbarkeit?",
+        "answer": "Sie verstärkt die Zusammendrückbarkeit der Druckflüssigkeit enorm.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Was könnten die Ursachen von a) Dunkelfärbung, b) milchiger Trübung, c) Luftbläschen im Öl sein?",
+        "answer": {
+            "a) Dunkelfärbung": "Zu hohe Temperaturen (z. B. wegen des Dieseleffekts).",
+            "b) milchiger Trübung": "Ungelöstes Wasser in der Druckflüssigkeit.",
+            "c) Luftbläschen im Öl": "Fremdlufteintrag oder Kavitation."
+        },
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Was ist die Hauptaufgabe von Filtern?",
+        "answer": "Das Rückhalten und Entfernen von Feststoffpartikeln aus der Druckflüssigkeit (Schmutz).",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    },
+    {
+        "question": "Kann frisches Fassöl bedenkenlos eingefüllt werden?",
+        "answer": "Nein. Für die meisten Einsatzfälle in der Hydraulik kann die vorhandene Grundverschmutzung viel zu groß sein.",
+        "source": "01_Teilnehmerunterlage_RT04-004_DE.pdf",
+        "type": "pdf",
+        "level": "expert",
+        "question_type": "conceptual"
+    }
+]

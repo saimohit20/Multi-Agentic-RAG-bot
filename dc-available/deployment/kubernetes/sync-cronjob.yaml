@@ -1,0 +1,47 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: available-sync
+  namespace: available-2
+spec:
+  # ---- WHEN to run (cron format: min hour day month weekday) ----------------
+  schedule: "0 * * * *"          # every hour, on the hour. "*/15 * * * *" = every 15 min.
+  concurrencyPolicy: Forbid      # never run two syncs at once (avoids mirror clashes)
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+
+  jobTemplate:
+    spec:
+      backoffLimit: 1            # retry once on failure
+      template:
+        spec:
+          restartPolicy: Never
+          containers:
+            - name: sync
+              # ---- WHAT to run: your image from ACR (code + packages baked in)
+              image: <your-acr-name>.azurecr.io/dc-available-pipeline:latest
+              command: ["python", "-m", "pipeline.sync"]
+
+              # ---- SECRETS (NOTE 2): SharePoint / Graph creds come from a
+              # Kubernetes Secret named 'available-sharepoint', injected as env
+              # vars. Same names your pipeline/.env uses.
+              envFrom:
+                - secretRef:
+                    name: available-sharepoint
+
+              # ---- STORAGE (NOTE 3): mount the shared Azure Files data volume.
+              # sync writes local_sharepoint/ + .manifest.json inside it.
+              volumeMounts:
+                - name: data
+                  mountPath: /app/dc_available/data
+
+              resources:
+                requests: { cpu: "250m", memory: "512Mi" }
+                limits:   { cpu: "1",    memory: "1Gi" }
+
+          volumes:
+            - name: data
+              persistentVolumeClaim:
+                claimName: available-data          # the shared Azure Files PVC (mirror-pvc.yaml)
+
+

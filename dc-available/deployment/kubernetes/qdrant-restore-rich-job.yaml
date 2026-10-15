@@ -1,0 +1,53 @@
+# =============================================================================
+# qdrant-restore-rich-job.yaml  —  one-off restore of the two RICH snapshots
+# into the in-cluster Qdrant.
+#
+# Mounts the available-data PVC (where the RICH .snapshot files were uploaded
+# under _snapshots/) and POSTs each to Qdrant's snapshot-upload API. The target
+# collection names match RICH's defaults in data_config.py:
+#   RICH                     (QDRANT_RICH_COLLECTION)
+#   available_rich_entities  (QDRANT_RICH_ENTITY_COLLECTION)
+#
+# Apply:  kubectl apply -f deployment/kubernetes/qdrant-restore-rich-job.yaml
+# Logs:   kubectl logs -n available-2 job/qdrant-restore-rich
+# Delete after success: kubectl delete job qdrant-restore-rich -n available-2
+# =============================================================================
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: qdrant-restore-rich
+  namespace: available-2
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: restore
+          image: curlimages/curl:8.10.1
+          command:
+            - /bin/sh
+            - -c
+            - |
+              set -e
+              echo "== restoring RICH =="
+              curl -sS --fail-with-body -X POST \
+                "http://qdrant:6333/collections/RICH/snapshots/upload?priority=snapshot" \
+                -F "snapshot=@/data/_snapshots/RICH.snapshot"
+              echo
+              echo "== restoring available_rich_entities =="
+              curl -sS --fail-with-body -X POST \
+                "http://qdrant:6333/collections/available_rich_entities/snapshots/upload?priority=snapshot" \
+                -F "snapshot=@/data/_snapshots/available_rich_entities.snapshot"
+              echo
+              echo "== resulting collections =="
+              curl -sS "http://qdrant:6333/collections"
+              echo
+          volumeMounts:
+            - name: data
+              mountPath: /data
+              readOnly: true
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: available-data

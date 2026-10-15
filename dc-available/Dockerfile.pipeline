@@ -1,0 +1,71 @@
+# =============================================================================
+# Dockerfile.pipeline
+# Single reusable image for all 3 pipeline stages:
+#   ingest → index → serve
+# The command is NOT fixed here — each service in docker-compose overrides it.
+# =============================================================================
+
+FROM python:3.11.9-slim
+
+# ---------------------------------------------------------------------------
+# System dependencies
+# ---------------------------------------------------------------------------
+RUN apt-get update \
+    || (echo "ERROR: Docker build cannot resolve Debian package servers. Check Docker DNS, proxy, or VPN settings." >&2 \
+    && echo "Current /etc/resolv.conf:" >&2 \
+    && cat /etc/resolv.conf >&2 \
+    && exit 1)
+
+RUN apt-get upgrade -y
+
+# Keep one package per step, but refresh apt index in the same layer.
+# --- preprocess stage needs these on Linux (no Windows PowerPoint/Office) ---
+RUN apt-get update && apt-get install -y --no-install-recommends libreoffice
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg
+RUN apt-get update && apt-get install -y --no-install-recommends libglib2.0-0
+RUN apt-get update && apt-get install -y --no-install-recommends fonts-dejavu-core
+
+RUN rm -rf /var/lib/apt/lists/* && apt-get clean
+
+# ---------------------------------------------------------------------------
+# Python / Poetry settings
+# POETRY_VIRTUALENVS_CREATE=false  → installs packages into system Python
+#   (avoids the in-project .venv from poetry.toml colliding with the image)
+# ---------------------------------------------------------------------------
+ENV POETRY_VERSION=1.8.3 \
+    POETRY_VIRTUALENVS_CREATE=false \
+    POETRY_NO_INTERACTION=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app \
+    HF_HOME=/root/.cache/huggingface
+
+RUN pip install --no-cache-dir "poetry==${POETRY_VERSION}"
+
+# ---------------------------------------------------------------------------
+# Working directory
+# ---------------------------------------------------------------------------
+WORKDIR /app
+
+# ---------------------------------------------------------------------------
+# Install dependencies first — Docker caches this layer as long as the
+# lockfile does not change, so rebuilds after code-only changes are fast.
+# ---------------------------------------------------------------------------
+COPY pyproject.toml poetry.toml poetry.lock ./
+
+# --no-root  : don't install the project package yet (code not copied yet)
+# --only main: skip dev extras (pytest, mkdocs, etc.)
+RUN poetry install --no-root --only main
+
+# ---------------------------------------------------------------------------
+# Copy project source code
+# pipeline/ and dc_available/ are the only runtime modules needed.
+# ---------------------------------------------------------------------------
+COPY dc_available/ ./dc_available/
+COPY pipeline/     ./pipeline/
+
+# ---------------------------------------------------------------------------
+# Default command — overridden per service in docker-compose.pipeline.yml
+# This fallback starts the serve stage if you run the image directly.
+# ---------------------------------------------------------------------------
+CMD ["python", "-m", "pipeline.serve", "--source", "available", "--mode", "assistant"]

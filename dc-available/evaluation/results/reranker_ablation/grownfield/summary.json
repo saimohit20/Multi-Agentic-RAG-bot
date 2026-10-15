@@ -1,0 +1,41 @@
+[
+  {
+    "config": "no_rerank",
+    "hit@1": 0.6552,
+    "hit@3": 0.7586,
+    "hit@10": 0.931,
+    "mrr": 0.7288,
+    "answer_correctness": 0.2817,
+    "mean_vector_time": 2.294,
+    "mean_graph_time": 4.896,
+    "mean_rerank_time": 0.0,
+    "mean_generation_time": 6.187,
+    "mean_retrieval_time": 7.192
+  },
+  {
+    "config": "base",
+    "hit@1": 0.6552,
+    "hit@3": 0.7931,
+    "hit@10": 0.931,
+    "mrr": 0.7425,
+    "answer_correctness": 0.2692,
+    "mean_vector_time": 2.322,
+    "mean_graph_time": 4.933,
+    "mean_rerank_time": 4.412,
+    "mean_generation_time": 6.087,
+    "mean_retrieval_time": 11.669
+  },
+  {
+    "config": "v2m3",
+    "hit@1": 0.6207,
+    "hit@3": 0.7586,
+    "hit@10": 0.9655,
+    "mrr": 0.7299,
+    "answer_correctness": 0.2856,
+    "mean_vector_time": 2.316,
+    "mean_graph_time": 4.975,
+    "mean_rerank_time": 15.314,
+    "mean_generation_time": 6.251,
+    "mean_retrieval_time": 22.609
+  }
+]

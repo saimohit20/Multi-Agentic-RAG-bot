@@ -1,0 +1,126 @@
+version: '3'
+dotenv: ['.env']
+
+vars:
+  PROJECT_DIR: dc_available
+  DOCKER_CONTAINER_NAME: dc-available-app
+  IMAGE_TAG: '{{.IMAGE_TAG | default "latest"}}'
+  REGISTRY_URL: '{{.AZURE_REGISTRY_URL}}'
+  REGISTRY_NAME: '{{.AZURE_REGISTRY_NAME}}'
+
+tasks:
+  pre-build-setup:
+    desc: Prepare prerequisites for building the docker image
+    cmds:
+      - python ../../dc_available/curriculum_app.py --setup-only -s dc_available
+
+  pre-build-clean:
+    desc: Delete intermediate files and caches
+    cmds:
+      - bash -c "rm -rf ./main_data_test/huggingface/hub" || true
+      - bash -c "rm -rf ~/.cache/huggingface/hub/*" || true
+      - powershell.exe -ExecutionPolicy Bypass -File ./clean.ps1 || true
+      - docker system prune -f || true
+
+  security-scan:
+    desc: Scan the built image for vulnerabilities
+    cmds:
+      - |
+        echo "Running security scan..."
+        # Install trivy if not present
+        if ! command -v trivy &> /dev/null; then
+          echo "Installing Trivy scanner..."
+          curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
+        fi
+        
+        # Scan the image
+        trivy image --severity HIGH,CRITICAL --exit-code 1 {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}
+
+  build:
+    desc: Build the docker image with security best practices
+    cmds:
+      - az login
+      - |
+        docker build \
+          --build-arg HTTP_PROXY=http://host.docker.internal:3128 \
+          --build-arg HTTPS_PROXY=http://host.docker.internal:3128 \
+          --build-arg PROJECT_DIR={{.PROJECT_DIR}} \
+          --no-cache \
+          --security-opt no-new-privileges:true \
+          -f Dockerfile \
+          -t {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}} \
+          ../../
+
+  build-secure:
+    desc: Build with security scanning
+    cmds:
+      - task: pre-build-clean
+      - task: pre-build-setup
+      - task: build
+      - task: security-scan
+
+  run:
+    desc: Run the docker image locally with security constraints
+    cmds:
+      - az login
+      - |
+        docker run \
+          -p 8502:8502 \
+          --read-only \
+          --tmpfs /tmp \
+          --security-opt no-new-privileges:true \
+          --cap-drop ALL \
+          --cap-add NET_BIND_SERVICE \
+          -it \
+          -v ${HOME:-%USERPROFILE%}/.azure:/root/.azure:ro \
+          -e AZURE_CONFIG_DIR=/root/.azure \
+          {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}
+
+  tag:
+    desc: Tag the docker image
+    cmds:
+      - docker tag {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}} {{.REGISTRY_URL}}/samples/{{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}
+
+  push:
+    desc: Push the docker image to the registry
+    cmds:
+      - az login
+      - az acr login --name {{.REGISTRY_NAME}}
+      - docker push {{.REGISTRY_URL}}/samples/{{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}
+
+  build-and-push:
+    desc: Build and push the docker image
+    cmds:
+      - task: pre-build-clean
+      - task: pre-build-setup
+      - task: build
+      - task: tag
+      - task: push
+
+  build-and-push-secure:
+    desc: Build, scan, and push the docker image securely
+    cmds:
+      - task: build-secure
+      - task: tag
+      - task: push
+
+  vulnerability-report:
+    desc: Generate detailed vulnerability report
+    cmds:
+      - |
+        echo "Generating vulnerability report..."
+        trivy image --format json --output vulnerability-report.json {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}
+        trivy image --format table {{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}} > vulnerability-report.txt
+        echo "Reports saved: vulnerability-report.json, vulnerability-report.txt"
+
+  continuous-scan:
+    desc: Setup continuous vulnerability scanning
+    cmds:
+      - |
+        echo "Setting up Azure Container Registry vulnerability scanning..."
+        az acr task create \
+          --registry {{.REGISTRY_NAME}} \
+          --name vulnerability-scan-task \
+          --image {{.REGISTRY_URL}}/samples/{{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}} \
+          --schedule "0 2 * * *" \
+          --cmd "trivy image --exit-code 1 {{.REGISTRY_URL}}/samples/{{.DOCKER_CONTAINER_NAME}}:{{.IMAGE_TAG}}"

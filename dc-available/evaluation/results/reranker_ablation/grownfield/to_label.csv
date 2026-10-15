@@ -1,0 +1,292 @@
+question_id,config,question,golden_answer,generated_answer,judge_verdict,judge_reasoning,judge_rationale,human_label
+gf_001,no_rerank,Which transaction should be used for creating an sales order?,VA01,"The transaction that should be used for creating a sales order in SAP is **VA01**. This transaction allows sales representatives to enter customer orders, including product details, quantities, and pricing. It is an essential tool in the sales process to ensure proper order capture and processing.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.012 Sales Order Standard with Down-Payment.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.024 Sales Order FOC NSGS material without transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.023 Sales Order FOC NSGS material with transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.011 Sales Order Standard with NSGS material.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx",correct,"The generated answer correctly identifies the transaction code for creating a sales order as 'VA01,' which matches the reference answer. Additionally, the generated answer provides extra context about the purpose and functionality of the transaction, but this does not contradict or detract from the correctness of the key fact. The inclusion of additional details does not affect the accuracy of the answer.","The generated answer includes the exact transaction code 'VA01' as required by the reference, with no contradictions or errors.",
+gf_002,no_rerank,What are the existing order types for sales orders?,"YVC1
+YVI1
+YVI2
+YVC5","The existing order types for sales orders include:
+
+1. **Standard Sales Orders (YVC1)**: Used for regular sales transactions.
+2. **Free of Charge Orders (FC)**: For orders where no payment is required, such as promotional gifts or product samples.
+3. **Internal Consumption Orders and Returns (IC)**: For internal use or returns within the organization.
+4. **Customer Consignment (CC)**: For goods provided to customers on consignment.
+5. **Returns with Credit Note (RT)**: For returned goods where a credit note is issued.
+6. **Billing Corrections (BC)**: For correcting billing-related issues.
+
+These order types serve various purposes, including statistical analysis, accounting, and tax determination, particularly in cases like Free of Charge Orders where ownership transfer occurs.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Basic/training/O2C-00.001 General Elements.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx",incorrect,"The reference answer specifies four exact order types: YVC1, YVI1, YVI2, and YVC5. The generated answer only mentions YVC1 from this list and does not include YVI1, YVI2, or YVC5. Instead, it introduces other order types (e.g., Free of Charge Orders, Internal Consumption Orders) that are not part of the reference. While the generated answer provides additional context, it fails to include the required identifiers and introduces unrelated information.","The generated answer omits three of the required order types (YVI1, YVI2, YVC5) and includes unrelated order types, making it incorrect.",
+gf_003,no_rerank,What is the primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA?,To release or block an inspected quantity of a material.,"The primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA is to finalize the inspection process by determining the fate of the inspected material. It summarizes all inspection results into a binary decision: accepted or rejected. This decision dictates subsequent actions, such as stock postings and further processing. Additionally, in SAP S/4HANA, the UD can be made at both the lot level and the handling unit (HU) level, allowing for more granular control over stock movements and dispositions based on the quality assessment of individual HUs.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",correct,"The reference answer specifies that the primary purpose of the Usage Decision (UD) is ""to release or block an inspected quantity of a material."" The generated answer provides a broader explanation, stating that the UD finalizes the inspection process by determining the fate of the inspected material, summarizing inspection results into a binary decision (accepted or rejected), and dictating subsequent actions like stock postings. While this explanation aligns with the reference's core idea of releasing or blocking material, it does not explicitly use the same phrasing or focus solely on the release/block aspect. However, it does not contradict the reference and includes the key concept of deciding the material's status.","The generated answer captures the essence of the reference answer by describing the decision-making process for the inspected material, which aligns with releasing or blocking it.",
+gf_004,no_rerank,How to do a Usage Decision (UD) in SAP S/4HANA?,QE51N,"To perform a Usage Decision (UD) in SAP S/4HANA, follow these steps:
+
+1. **Inspection Lot Creation**: When goods are received, an inspection lot is automatically created if the inspection type is active in the material master.
+2. **Quality Inspection**: Perform quality checks based on the inspection plan. Record the results and identify any defects.
+3. **Usage Decision Execution**:
+   - **Lot Level**: Summarize the inspection results into a binary decision (accepted or rejected). This decision determines whether the material is moved to unrestricted stock, blocked stock, or requires further action (e.g., rework or return to the supplier).
+   - **Handling Unit (HU) Level**: For materials managed in handling units, make individual usage decisions for each HU. This allows for partial acceptance, rejection, or scrapping of specific HUs.
+4. **Automatic vs. Manual UD**:
+   - Automatic UDs can be configured for skip lots or inspection results marked as ""OK.""
+   - Manual UDs are required for cases such as partial acceptance/rejection, destructive inspections, or when deviations are identified.
+5. **Transaction Codes**: Use transaction codes like QA11 (for individual UDs) or QA32/QE51N (for mass inspections) to execute the UD process.
+6. **Stock Posting**: Based on the UD, the system will post the material to the appropriate stock type (e.g., unrestricted, blocked, or scrap).
+
+**Key Enhancements in SAP S/4HANA**:
+- Introduction of handling units (HUs) for more granular control.
+- Capability to perform UDs at both lot and HU levels.
+- Integration with Extended Warehouse Management (EWM) for real-time stock insights and advanced inventory management.
+- Automatic UDs for skip lots and results marked as ""OK.""
+- Dynamic modification rules to adjust inspection scope based on historical quality performance.
+
+**SOURCES**:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",correct,"The reference answer specifies the transaction code 'QE51N' as the method to perform a Usage Decision (UD) in SAP S/4HANA. The generated answer provides a detailed explanation of the UD process and mentions several transaction codes, including 'QE51N', which matches the reference. There are no contradictions or missing key facts regarding the transaction code 'QE51N'.",The generated answer includes the required transaction code 'QE51N' and does not contradict the reference.,
+gf_005,no_rerank,Which prerequisites are needed to create automatically an inspection lot during goods receipt?,"QM Info Record, Inspection Plan exist, and the Inspection Type is active in the material master in QM view.","To automatically create an inspection lot during goods receipt, the following prerequisites must be met:
+
+1. **Material Master Data**: The Q-view in the material master data must be maintained with QM procurement, control key, and inspection setup.
+2. **Q-Info Record**: A Q-info record must be maintained.
+3. **Inspection Plan**: A Q-inspection plan must be maintained.
+
+These settings ensure that the system can automatically generate an inspection lot upon posting the goods receipt.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.011_GR Inspection - Create, change or display inspection lot manually.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx",partial,"The reference answer specifies three prerequisites: a QM Info Record, an Inspection Plan, and an active Inspection Type in the material master in the QM view. The generated answer mentions the need for a Q-info record (equivalent to QM Info Record) and an Inspection Plan, which align with the reference. However, while it mentions the Q-view in the material master, it does not explicitly state that the Inspection Type must be active in the QM view, which is a key detail in the reference. Therefore, the generated answer is missing a critical part of the required information.",The generated answer includes two of the three prerequisites but omits the specific requirement for the Inspection Type to be active in the QM view of the material master.,
+gf_006,no_rerank,What billing types are existing in SAP S/4HANA?,"YVM1
+YVM8
+YVU1
+YVU2
+YVM4
+YVM7
+YVO1
+YVO1
+YVO4
+YVO5
+YVP1
+YVP2
+YVK1
+YVK2
+YVK5
+YVL1
+YVL2
+YXM1
+YXK1
+YXL1
+YXO1
+YXP1","The billing types existing in SAP S/4HANA include:
+
+1. **Fixed Recurring Services**: Billing is handled via contract documents as per a predefined billing plan. Costs are settled to the contract item.  
+   Source: R2S-06.010 Create Service Contract.pptx  
+
+2. **Additional Services**: Billing is done using service orders for activities outside the contracted scope, such as extra activities, spare parts, travel, or consumption. Costs and revenues are settled to the contract item.  
+   Source: R2S-06.010 Create Service Contract.pptx  
+
+3. **Down Payment Billing**: A billing plan is used to create a Down Payment Request in the sales order. After payment, a Down Payment Invoice is created, and the final billing document deducts the down payment from the total invoice amount.  
+   Source: O2C-02.012 Sales Order Standard with Down-Payment.pptx  
+
+4. **Standard Billing for Goods and Services**: Billing documents are created for goods issue deliveries, standard orders, project orders, and service billing requests. Billing output is generated based on sales organization-specific number ranges.  
+   Source: O2C-04.010 Manage Customer Billing - Initial Invoice.pptx  
+
+5. **Service Invoicing**: Includes invoicing for specific materials (e.g., DIEN, YSER, SERV, and BUND) under a standardized concept.  
+   Source: O2C-00.004 Billing Elements - Key Users and Rollout Consultants.pptx  
+
+SOURCES:  
+- R2S-06.010 Create Service Contract.pptx  
+- O2C-02.012 Sales Order Standard with Down-Payment.pptx  
+- O2C-04.010 Manage Customer Billing - Initial Invoice.pptx  
+- O2C-00.004 Billing Elements - Key Users and Rollout Consultants.pptx",incorrect,"The reference answer provides a specific list of billing types in SAP S/4HANA, identified by their exact codes (e.g., YVM1, YVM8, etc.). The generated answer, however, does not mention any of these specific billing type codes. Instead, it describes general billing processes and concepts, which are not equivalent to the specific billing type codes required by the reference. Therefore, the generated answer does not meet the requirements of the reference.","The generated answer does not include the specific billing type codes listed in the reference, which are required for correctness.",
+gf_001,base,Which transaction should be used for creating an sales order?,VA01,"The transaction that should be used for creating a sales order in SAP is **VA01**. This transaction allows sales representatives to enter customer orders, including product details, quantities, and pricing. It is an essential tool in the sales process to ensure proper order capture and processing.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.012 Sales Order Standard with Down-Payment.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.024 Sales Order FOC NSGS material without transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.023 Sales Order FOC NSGS material with transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.011 Sales Order Standard with NSGS material.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.021 Sales Order FOC with transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership.pptx",correct,"The generated answer correctly identifies the transaction code for creating a sales order as VA01, which matches the reference answer. Additionally, the generated answer provides extra context about the purpose and functionality of the transaction, but this does not contradict the reference or introduce any inaccuracies.",The generated answer includes the exact transaction code 'VA01' as required by the reference and does not contain any incorrect information.,
+gf_002,base,What are the existing order types for sales orders?,"YVC1
+YVI1
+YVI2
+YVC5","The existing order types for sales orders include:
+
+1. **Standard Sales Orders (YVC1)**: Used for regular sales transactions.
+2. **Quotations (YVB1)**: Standard quotations for customers.
+3. **Customer Quantity Contracts (YVG1)**: Agreements for specific quantities of products.
+4. **Scheduling Agreements (3*)**: Predefined delivery schedules for products.
+5. **Credit/Debit Memo Requests (6*)**: For adjustments to invoices.
+6. **Migration-Specific Ranges (P1F*, P10*)**: Used for specific migration purposes.
+
+These order types are part of the Order to Cash (O2C) process and are defined with specific characteristics and usage scenarios.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Basic/training/O2C-00.001 General Elements.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx",partial,"The reference answer specifies four exact order types: YVC1, YVI1, YVI2, and YVC5. The generated answer only mentions YVC1 from the reference and introduces other order types (e.g., YVB1, YVG1, etc.) that are not part of the reference. While YVC1 is correct, the generated answer fails to include the other three required order types and introduces unrelated or incorrect ones.","The generated answer includes one correct order type (YVC1) but omits the other three required types (YVI1, YVI2, YVC5) and introduces unrelated or incorrect information.",
+gf_003,base,What is the primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA?,To release or block an inspected quantity of a material.,"The primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA is to finalize the inspection process by determining the fate of the inspected material. At the lot level, the UD summarizes all inspection results into a binary decision: accepted or rejected. This decision dictates subsequent actions, such as stock postings and further processing. Additionally, in SAP S/4HANA, the UD can also be made at the handling unit (HU) level, allowing for individual evaluation and disposition of stock within specific HUs. This provides more granular control over stock movements and dispositions based on the quality assessment of individual HUs.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",correct,"The reference answer specifies that the primary purpose of the Usage Decision (UD) in SAP S/4HANA's Quality Management module is ""to release or block an inspected quantity of a material."" The generated answer provides a more detailed explanation, stating that the UD finalizes the inspection process by determining the fate of the inspected material, summarizing inspection results into a binary decision (accepted or rejected), and dictating subsequent actions like stock postings. While the generated answer includes additional details, it does not contradict the reference and correctly captures the essence of the primary purpose of the UD as described in the reference.","The generated answer accurately conveys the primary purpose of the Usage Decision (UD) as described in the reference, with no contradictions.",
+gf_004,base,How to do a Usage Decision (UD) in SAP S/4HANA?,QE51N,"To perform a Usage Decision (UD) in SAP S/4HANA, follow these steps:
+
+1. **Inspection Lot Creation**: Ensure that an inspection lot is created automatically during the goods receipt process if the inspection type is active.
+2. **Quality Inspection**: Perform quality checks based on the inspection plan and record the results.
+3. **Usage Decision Execution**:
+   - Use transaction codes such as **QA32**, **QA33**, or **QA11** to access the inspection lot.
+   - For handling unit (HU) level decisions, use **QE51N** or EWM Inspection functionality if applicable.
+   - Based on the inspection results, make a usage decision to accept, reject, or scrap the material.
+   - For HUs, you can split them into accepted, rejected, or scrapped portions, with stock types updated accordingly in EWM.
+4. **Automatic Usage Decision**: If configured, skip lots or results marked as ""OK"" can trigger an automatic usage decision.
+5. **Documentation**: Document the decision in SAP, especially for vendor-related deviations, and proceed with the necessary stock postings or further actions.
+
+**Key Notes**:
+- Usage decisions can be made at the lot level or the handling unit (HU) level, providing flexibility for partial acceptance or rejection.
+- Destructive inspections can also be performed at the HU level or in EWM.
+
+**SOURCES**:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",correct,"The reference answer specifies that the transaction code for performing a Usage Decision (UD) in SAP S/4HANA is 'QE51N'. The generated answer mentions 'QE51N' as one of the options for handling unit (HU) level decisions but also lists other transaction codes such as 'QA32', 'QA33', and 'QA11' for accessing the inspection lot. While the generated answer provides additional context and options, it does include 'QE51N' as required by the reference. There is no contradiction or omission of the key fact from the reference.","The generated answer includes the required transaction code 'QE51N' as specified in the reference, making it correct.",
+gf_005,base,Which prerequisites are needed to create automatically an inspection lot during goods receipt?,"QM Info Record, Inspection Plan exist, and the Inspection Type is active in the material master in QM view.","To automatically create an inspection lot during goods receipt, the following prerequisites must be met:
+
+1. **Material Master Data**: The Q-view in the material master data must be maintained with QM procurement, control key, and inspection setup.  
+2. **Q-Info Record**: A Q-info record must be maintained.  
+3. **Inspection Plan**: A Q-inspection plan must be maintained.  
+4. **Goods Receipt Posting**: The goods receipt must be posted for the purchase order item, which triggers the creation of the inspection lot.  
+5. **Dynamic Modification Rules (DMR)**: For certain goods, dynamic modification rules may need to be configured to allow automatic usage decisions.  
+
+Once these prerequisites are met, the system will automatically generate an inspection lot after the goods receipt is posted. The inspection lot can then be reviewed and managed using transactions such as QA32 or QA33, or via Fiori apps.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.011_GR Inspection - Create, change or display inspection lot manually.pptx",partial,"The reference answer specifies three prerequisites for automatically creating an inspection lot during goods receipt: a QM Info Record, an Inspection Plan, and an active Inspection Type in the material master in the QM view. The generated answer includes the QM Info Record and Inspection Plan but does not explicitly mention the Inspection Type being active in the material master in the QM view. Instead, it mentions maintaining the Q-view in the material master data with QM procurement, control key, and inspection setup, which is related but not the exact requirement stated in the reference. Additionally, the generated answer includes extra details like Goods Receipt Posting and Dynamic Modification Rules, which are not part of the reference but do not contradict it.","The generated answer omits the specific requirement of the Inspection Type being active in the material master in the QM view, which is a key fact in the reference.",
+gf_006,base,What billing types are existing in SAP S/4HANA?,"YVM1
+YVM8
+YVU1
+YVU2
+YVM4
+YVM7
+YVO1
+YVO1
+YVO4
+YVO5
+YVP1
+YVP2
+YVK1
+YVK2
+YVK5
+YVL1
+YVL2
+YXM1
+YXK1
+YXL1
+YXO1
+YXP1","The extracted content does not provide specific information about the billing types existing in SAP S/4HANA. Therefore, I cannot answer the question based on the provided sources.
+
+SOURCES: None",incorrect,"The reference answer provides a specific list of billing types in SAP S/4HANA, including exact identifiers such as 'YVM1', 'YVM8', and others. The generated answer, however, does not provide any of these identifiers or any relevant information about billing types. It simply states that the information is not available, which directly contradicts the reference.",The generated answer fails to include any of the specific billing types listed in the reference and does not provide a correct response to the question.,
+gf_001,v2m3,Which transaction should be used for creating an sales order?,VA01,"The transaction VA01 should be used for creating a sales order in SAP. 
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.012 Sales Order Standard with Down-Payment.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.024 Sales Order FOC NSGS material without transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.011 Sales Order Standard with NSGS material.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.021 Sales Order FOC with transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.023 Sales Order FOC NSGS material with transfer of ownership.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership.pptx",correct,"The generated answer explicitly states that the transaction VA01 is used for creating a sales order in SAP, which matches the reference answer exactly. There are no contradictions or missing information in the generated answer.","The generated answer correctly identifies VA01 as the transaction for creating a sales order, matching the reference answer exactly.",
+gf_002,v2m3,What are the existing order types for sales orders?,"YVC1
+YVI1
+YVI2
+YVC5","The existing order types for sales orders include:
+
+1. **Standard Sales Orders (YVC1)** - Used for standard sales transactions.
+2. **Scheduling Agreements (3*)** - For long-term agreements with predefined delivery schedules.
+3. **Credit/Debit Memo Requests (6*)** - For adjustments to billing.
+4. **Customer Quantity Contract (YVG1)** - For agreements specifying quantities to be delivered over a period.
+5. **Free of Charge Orders (FC)** - For promotional or complimentary items.
+6. **Internal Consumption Orders (IC)** - For internal use or returns.
+7. **Customer Consignment (CC)** - For consignment stock.
+8. **Returns with Credit Note (RT)** - For returned goods with credit issuance.
+9. **Billing Corrections (BC)** - For correcting billing errors.
+
+These order types are used in the Order to Cash (O2C) process and are determined based on specific business needs, document types, and organizational data.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Basic/training/O2C-00.001 General Elements.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.010 Standard Sales Order.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.012 Sales Order Standard with Down-Payment.pptx",incorrect,"The reference answer specifies four exact order types: YVC1, YVI1, YVI2, and YVC5. The generated answer includes YVC1 but does not mention YVI1, YVI2, or YVC5. Instead, it lists several other order types that are not in the reference, such as ""Scheduling Agreements (3*)"" and ""Customer Quantity Contract (YVG1)."" While the generated answer provides additional context and examples, it fails to include three of the four required order types and introduces unrelated ones, which makes it incorrect.","The generated answer does not include three of the four required order types and introduces unrelated ones, failing to meet the reference's requirements.",
+gf_003,v2m3,What is the primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA?,To release or block an inspected quantity of a material.,"The primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA is to finalize the inspection process by determining the fate of the inspected material. It summarizes all inspection results into a binary decision: accepted or rejected. This decision dictates subsequent actions, such as stock postings and further processing. Additionally, in SAP S/4HANA, the UD can be made at both the lot level and the handling unit (HU) level, allowing for more granular control over stock movements and dispositions based on the quality assessment of individual HUs.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",correct,"The reference answer specifies that the primary purpose of the Usage Decision (UD) in SAP S/4HANA's Quality Management module is ""to release or block an inspected quantity of a material."" The generated answer provides a broader explanation, stating that the UD finalizes the inspection process by determining the fate of the inspected material, summarizing inspection results into a binary decision (accepted or rejected), and dictating subsequent actions like stock postings. While this explanation aligns with the reference's core idea of releasing or blocking inspected material, it does not explicitly use the same phrasing as the reference. However, the generated answer does not contradict the reference and includes the key fact of determining the material's status, which aligns with ""release or block.""","The generated answer captures the essence of the reference answer by describing the purpose of the Usage Decision as determining the fate of inspected material, which aligns with releasing or blocking it.",
+gf_004,v2m3,How to do a Usage Decision (UD) in SAP S/4HANA?,QE51N,"To perform a Usage Decision (UD) in SAP S/4HANA, follow these steps:
+
+1. **Inspection Lot Creation**: When goods are received, an inspection lot is automatically created if the inspection type is active in the system.
+2. **Perform Quality Checks**: Conduct quality inspections based on predefined inspection plans. Record the results and identify any defects.
+3. **Execute Usage Decision**:
+   - For **lot-level UD**: Use transaction code **QA11** or access the inspection lot via **QA32** or **QE51N**. Based on the inspection results, make a binary decision (accept or reject the lot).
+   - For **handling unit (HU)-level UD**: If the stock is managed in handling units, you can make individual usage decisions for each HU. This allows for partial acceptance or rejection of the stock within a single inspection lot.
+4. **Post-Inspection Actions**: Based on the usage decision:
+   - If the material is accepted, it is moved to unrestricted stock for further processing or delivery.
+   - If the material is rejected, it may be scrapped, returned to the supplier, or reworked. These actions must be documented in SAP.
+5. **Automatic Usage Decision**: For skip lots or inspection results marked as ""OK,"" the system can automatically execute the usage decision.
+
+**Key Notes**:
+- The transition from SAP R/3 to S/4HANA introduces the ability to perform usage decisions at both the lot level and the HU level, providing more granular control over stock disposition.
+- Dynamic modification rules in S/4HANA can adjust the inspection scope based on historical quality performance.
+- The process can be executed manually or automatically, depending on the configuration.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/Q2E/Basic/training/Q2E-01.020 QM Process Overview CU.pptx",partial,"The reference answer specifies the transaction code ""QE51N"" as the method to perform a Usage Decision (UD) in SAP S/4HANA. The generated answer mentions ""QE51N"" as one of the options for performing a lot-level UD, but it also includes other transaction codes such as ""QA11"" and ""QA32"". While the additional details are not penalized, the inclusion of ""QA11"" and ""QA32"" introduces potential confusion and does not align strictly with the reference, which only specifies ""QE51N"". Therefore, the generated answer is partially correct.","The generated answer includes the correct transaction code ""QE51N"" but also introduces additional codes (""QA11"" and ""QA32"") not mentioned in the reference, which could lead to ambiguity.",
+gf_005,v2m3,Which prerequisites are needed to create automatically an inspection lot during goods receipt?,"QM Info Record, Inspection Plan exist, and the Inspection Type is active in the material master in QM view.","To automatically create an inspection lot during goods receipt, the following prerequisites must be met:
+
+1. **Material Master Data**: The Q-view in the material master data must be maintained with QM procurement, control key, and inspection setup.
+2. **Q-Info Record**: A Q-info record must be maintained.
+3. **Inspection Plan**: A Q-inspection plan must be maintained.
+
+These prerequisites ensure that the system can generate an inspection lot automatically based on standard processes like goods receipt or production order release.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.011_GR Inspection - Create, change or display inspection lot manually.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/P2P/Advanced/training/P2P-04.010. Goods Receipt Inspection.pptx",partial,"The reference answer specifies three prerequisites: QM Info Record, Inspection Plan, and the Inspection Type being active in the material master in the QM view. The generated answer mentions the Q-info record (equivalent to QM Info Record) and the Inspection Plan, which align with the reference. However, while it mentions the Q-view in the material master data, it does not explicitly state that the Inspection Type must be active in the QM view, which is a key detail in the reference. Therefore, the generated answer is missing a critical part of the reference answer.","The generated answer omits the specific requirement that the Inspection Type must be active in the QM view of the material master, which is a key detail in the reference.",
+gf_006,v2m3,What billing types are existing in SAP S/4HANA?,"YVM1
+YVM8
+YVU1
+YVU2
+YVM4
+YVM7
+YVO1
+YVO1
+YVO4
+YVO5
+YVP1
+YVP2
+YVK1
+YVK2
+YVK5
+YVL1
+YVL2
+YXM1
+YXK1
+YXL1
+YXO1
+YXP1","The extracted content does not provide a comprehensive list of billing types existing in SAP S/4HANA. However, it mentions some examples of billing types such as ""TVM4 Down Payment Request,"" ""YV05 Correction Down Payment,"" and the use of billing plans for down payments and recurring services. For a complete list of billing types in SAP S/4HANA, additional resources or documentation would be required.
+
+SOURCES:  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Expert/training/O2C-00.004 Billing Elements - Key Users and Rollout Consultants.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-04.013 Manage Customer Billing - DownPayment Request.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-04.016 Manage Customer Billing - Credit Note DownPayment.pptx  
+- C:/Users/VAS1UL/Master Thesis/DC-Avaialable Baseversion/dc-available/dc_available/data/local_sharepoint/GROWNFIELD/O2C/Advanced/training/O2C-02.012 Sales Order Standard with Down-Payment.pptx",incorrect,"The reference answer provides a specific and exhaustive list of billing types in SAP S/4HANA, including identifiers like 'YVM1', 'YVM8', and others. The generated answer does not include any of these identifiers and instead provides general information about billing types and examples that are not part of the reference list. This omission of the required identifiers makes the generated answer incorrect.","The generated answer fails to include any of the specific billing type identifiers listed in the reference answer, which is required for correctness.",

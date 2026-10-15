@@ -1,0 +1,68 @@
+# =============================================================================
+# auto-pipeline-cronjob.yaml  —  the FULL automated pipeline (STAGES 1-3).
+#
+# Runs `python -m pipeline.run_pipeline` on a schedule:
+#     sync  →  (no changes? STOP)  →  preprocess (only changed)  →  index (rebuild)
+#
+# This SUPERSEDES sync-cronjob.yaml (that one runs only sync; use it for testing
+# the sync stage in isolation). In production you run THIS one.
+#
+# Needs everything the 3 stages need:
+#   - available-data PVC           (shared data disk)
+#   - available-sharepoint Secret  (Graph creds for sync)
+#   - available-openai ConfigMap   (endpoint/version for gpt-4o)
+#   - available-workload-identity  ServiceAccount (Azure OpenAI auth, no key)
+#   - Qdrant reachable at qdrant:6333 (index writes vectors there)
+#
+# Apply:  kubectl apply -f deployment/kubernetes/auto-pipeline-cronjob.yaml
+# =============================================================================
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: available-pipeline
+  namespace: available-2
+spec:
+  schedule: "0 * * * *"            # every hour; adjust as needed
+  concurrencyPolicy: Forbid        # never overlap runs
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      # preprocess+index can be long (LibreOffice/ffmpeg + gpt-4o + embedding).
+      activeDeadlineSeconds: 21600  # give it up to 6h before it's killed
+      template:
+        metadata:
+          labels:
+            azure.workload.identity/use: "true"   # inject the Azure identity token
+        spec:
+          serviceAccountName: available-workload-identity   # -> the Azure OpenAI identity
+          restartPolicy: Never
+          containers:
+            - name: pipeline
+              image: <your-acr-name>.azurecr.io/dc-available-pipeline:latest
+              command: ["python", "-m", "pipeline.run_pipeline", "--source", "available"]
+              env:
+                - name: AVAILABLE_APP_SOURCE
+                  value: "available"
+                - name: IN_DOCKER            # helps llm_config pick the Azure identity path
+                  value: "1"
+                - name: QDRANT_URL           # index writes vectors to the in-cluster Qdrant
+                  value: "http://qdrant:6333"
+                - name: QDRANT_COLLECTION    # write/read the same collection we restored
+                  value: "available2.0"
+              envFrom:
+                - secretRef:
+                    name: available-sharepoint   # GRAPH_TENANT_ID/CLIENT_ID/CLIENT_SECRET, site/folder
+                - configMapRef:
+                    name: available-openai       # AZURE_ENDPOINT, API_VERSION
+              volumeMounts:
+                - name: data
+                  mountPath: /app/dc_available/data
+              resources:
+                requests: { cpu: "1", memory: "4Gi" }
+                limits:   { cpu: "4", memory: "8Gi" }
+          volumes:
+            - name: data
+              persistentVolumeClaim:
+                claimName: available-data

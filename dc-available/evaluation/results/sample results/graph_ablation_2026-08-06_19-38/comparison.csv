@@ -1,0 +1,342 @@
+question_id,question,golden_source,entity_1hop_legacy_top10,entity_1hop_merge_top10,ppr_legacy_top10,ppr_merge_top10
+gf_001,Which transaction should be used for creating an sales order?,O2C-02.010,"R2S-05.010 Exchange Handling
+O2C-03.011 Prepare Outbound Delivery Export
+R2S-02.120 BBX NSGS Process
+O2C-00.001 General Elements
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership
+R2S-02.070 Create Purchase Process","O2C-03.011 Prepare Outbound Delivery Export
+O2C-02.010 Standard Sales Order
+Q2E-02.060 Sales Logistics Customer Complaint FIORI
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership
+R2S-02.070 Create Purchase Process
+R2S-02.110 APM Number-Process","R2S-05.010 Exchange Handling
+O2C-00.001 General Elements
+O2C-03.011 Prepare Outbound Delivery Export
+P2S-02.020 Make to Order
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership
+R2S-02.070 Create Purchase Process","O2C-02.011 Sales Order Standard with NSGS material
+O2C-03.011 Prepare Outbound Delivery Export
+P2S-02.020 Make to Order
+O2C-02.010 Standard Sales Order
+O2C-00.001 General Elements
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership
+R2S-01.000 Create Service Request"
+gf_002,What are the existing order types for sales orders?,O2C-02.010,"R2S-05.010 Exchange Handling
+O2C-00.001 General Elements
+O2C-02.040 Manage Project Order Standard
+O2C-03.011 Prepare Outbound Delivery Export
+O2C-04.012 Manage Customer Billing - Export (ProForma)","O2C-04.013 Manage Customer Billing - DownPayment Request
+O2C-03.003 Free of Charge Under Delivery (FOC) - video
+O2C-00.001 General Elements
+O2C-03.011 Prepare Outbound Delivery Export
+O2C-04.012 Manage Customer Billing - Export (ProForma)
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership","R2S-05.010 Exchange Handling
+O2C-00.001 General Elements
+O2C-02.040 Manage Project Order Standard
+O2C-03.011 Prepare Outbound Delivery Export
+O2C-03.012 Prepare Outbound delivery - additional video
+O2C-04.012 Manage Customer Billing - Export (ProForma)","O2C-04.013 Manage Customer Billing - DownPayment Request
+O2C-03.003 Free of Charge Under Delivery (FOC) - video
+R2S-02.110 APM Number-Process
+O2C-00.001 General Elements
+O2C-03.011 Prepare Outbound Delivery Export
+O2C-03.012 Prepare Outbound delivery - additional video
+O2C-02.022 Sales Order FOC subsequent delivery without transfer of ownership"
+gf_003,What is the primary purpose of the Usage Decision (UD) in the Quality Management (QM) module of SAP S/4HANA?,P2P-04.010,"P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU
+R2S-06.010 Create Service Contract
+STI-02.020 Service Inhouse Repair
+STI-01.010 EWM Basics
+O2C-03.036 LSP Determination - additional video - IT","P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU","P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU
+R2S-06.010 Create Service Contract
+STI-02.020 Service Inhouse Repair
+STI-01.010 EWM Basics","P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU"
+gf_004,How to do a Usage Decision (UD) in SAP S/4HANA?,P2P-04.010,"P2P-04.010. Goods Receipt Inspection
+R2S-06.010 Create Service Contract
+O2C-03.036 LSP Determination - additional video - IT
+STI-01.010 EWM Basics
+STI-02.020 Service Inhouse Repair
+Q2E-01.020 QM Process Overview CU
+Q2E-02.050 Technical Customer Complaints_FIORI","P2P-04.010. Goods Receipt Inspection
+STI-02.020 Service Inhouse Repair","P2P-04.010. Goods Receipt Inspection
+R2S-06.010 Create Service Contract
+STI-01.010 EWM Basics
+STI-02.020 Service Inhouse Repair
+Q2E-02.050 Technical Customer Complaints_FIORI
+Q2E-01.020 QM Process Overview CU","P2P-04.010. Goods Receipt Inspection
+STI-02.020 Service Inhouse Repair"
+gf_005,Which prerequisites are needed to create automatically an inspection lot during goods receipt?,P2P-04.010,"P2P-04.014 Quick Reference Card P2P - Goods Receipt Inspection
+P2P-04.011_GR Inspection - Create, change or display inspection lot manually
+Q2E-02.040 Blocking functions with Q-Info Record and Adhoc process
+P2P-04.012_GR Inspection - Processing Quality Certificates
+P2P-04.010. Goods Receipt Inspection","Q2E-01.020 QM Process Overview CU
+P2P-04.011_GR Inspection - Create, change or display inspection lot manually
+P2P-04.010. Goods Receipt Inspection
+Q2E-02.040 Blocking functions with Q-Info Record and Adhoc process
+P2P-04.012_GR Inspection - Processing Quality Certificates
+Q2E-02.010 Master Data QM-View","P2P-04.011_GR Inspection - Create, change or display inspection lot manually
+P2P-04.010. Goods Receipt Inspection
+P2P-04.014 Quick Reference Card P2P - Goods Receipt Inspection
+P2P-04.012_GR Inspection - Processing Quality Certificates","P2P-04.011_GR Inspection - Create, change or display inspection lot manually
+P2P-04.014 Quick Reference Card P2P - Goods Receipt Inspection
+P2P-04.010. Goods Receipt Inspection
+P2P-04.012_GR Inspection - Processing Quality Certificates"
+gf_006,What billing types are existing in SAP S/4HANA?,O2C-04.000,"R2S-06.010 Create Service Contract
+Q2E-02.050 Technical Customer Complaints_FIORI
+O2C-00.004  Billing Elements - Key Users and Rollout Consultants
+O2C-04.013 Manage Customer Billing - DownPayment Request
+O2C-03.036 LSP Determination - additional video - IT
+P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU","O2C-04.041 Billing of Costs - Credit Note for Billing of Costs
+O2C-04.016 Manage Customer Billing - Credit Note DownPayment
+O2C-04.015 Manage Customer Billing - Credit Note Customer Return
+I2O-02.010 Create Quotation
+O2C-00.004  Billing Elements - Key Users and Rollout Consultants
+O2C-04.013 Manage Customer Billing - DownPayment Request
+O2C-04.010 Manage Customer Billing - Initial Invoice","R2S-06.010 Create Service Contract
+STI-02.020 Service Inhouse Repair
+Q2E-02.050 Technical Customer Complaints_FIORI
+O2C-00.004  Billing Elements - Key Users and Rollout Consultants
+O2C-04.013 Manage Customer Billing - DownPayment Request
+Q2E-02.020 Manage Quality Master Data with BRF+","O2C-04.041 Billing of Costs - Credit Note for Billing of Costs
+STI-02.020 Service Inhouse Repair
+O2C-04.013 Manage Customer Billing - DownPayment Request
+O2C-04.016 Manage Customer Billing - Credit Note DownPayment
+O2C-04.015 Manage Customer Billing - Credit Note Customer Return
+O2C-00.004  Billing Elements - Key Users and Rollout Consultants
+O2C-04.010 Manage Customer Billing - Initial Invoice"
+gf_007,What is the process for managing a credit memo request in SAP S/4HANA?,O2C-04.020,"O2C-04.020 Manage Credit Memo Request - Standard
+O2C-04.043 Billing of Costs - Credit Memo Request
+O2C-04.021 Manage Credit Memo Request - 2line
+O2C-04.022 Manage Credit Memo Request - DownPayment Invoice
+O2C-04.031 Manage Debit Memo Request - 2line
+P2P-01.020 MRP Master Data Training","O2C-04.030 Manage Debit Memo Request - Standard
+O2C-04.044 Billing of Costs - Credit Memo Request - 2 line
+O2C-04.021 Manage Credit Memo Request - 2line
+O2C-04.031 Manage Debit Memo Request - 2line
+O2C-02.060 Manage Customer Return Order
+O2C-04.045 Billing of Costs - Debit Memo Request - 2 line","O2C-04.043 Billing of Costs - Credit Memo Request
+O2C-04.021 Manage Credit Memo Request - 2line
+Q2E-02.060 Sales Logistics Customer Complaint FIORI
+O2C-04.031 Manage Debit Memo Request - 2line
+STI-02.020 Service Inhouse Repair
+R2S-06.010 Create Service Contract","O2C-04.030 Manage Debit Memo Request - Standard
+O2C-04.020 Manage Credit Memo Request - Standard
+O2C-04.043 Billing of Costs - Credit Memo Request
+O2C-04.044 Billing of Costs - Credit Memo Request - 2 line
+O2C-02.060 Manage Customer Return Order
+O2C-00.001 General Elements
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+S2C-03.010 Purchase Order Approval (Training DCPL) - slides"
+gf_008,How does the standard outbound process looks like in SAP S/4HANA?,"O2C-03.001, O2C-03.010","STI-01.010 EWM Basics
+O2C-03.012 Prepare Outbound delivery - additional video
+O2C-03.062 Reverse Processing - No Assignment to HU
+O2C-03.061 Reverse Processing - No Warehouse Activity Started
+O2C-03.021 Package Goods Certificates
+O2C-03.065 Reverse Processing - Stock-in-Transit (SiT)
+O2C-03.063 Reverse Processing - Assignment to HU
+O2C-03.064 Reverse Processing - Goods Issue Done","O2C-03.011 Prepare Outbound Delivery Export
+O2C-03.036 LSP Determination - additional video - FR
+O2C-03.036 LSP Determination - additional video - IT
+STI-04.010 EWM Outbound process - picking execution
+STI-02.020 Service Inhouse Repair
+STI-01.010 EWM Basics
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+O2C-03.021 Package Goods Certificates
+R2S-02.080 Create Outbound Delivery","O2C-03.021 Package Goods Certificates
+Q2E-01.020 QM Process Overview CU
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+O2C-03.065 Reverse Processing - Stock-in-Transit (SiT)
+O2C-03.064 Reverse Processing - Goods Issue Done","O2C-03.011 Prepare Outbound Delivery Export
+O2C-03.012 Prepare Outbound delivery - additional video
+STI-02.020 Service Inhouse Repair
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+R2S-02.000 Create Service Order
+O2C-03.021 Package Goods Certificates
+O2C-03.064 Reverse Processing - Goods Issue Done
+O2C-03.036 LSP Determination - additional video - FR"
+gf_009,How to sep up a standard sales quotation in SAP S/4HANA?,I2O-02.010,"O2C-00.001 General Elements
+Q2E-02.050 Technical Customer Complaints_FIORI
+20220712_EN_eT-B-SmartSystems V12_FINAL
+STI-02.020 Service Inhouse Repair
+Q2E-01.020 QM Process Overview CU
+P2P-04.010. Goods Receipt Inspection
+O2C-03.036 LSP Determination - additional video - IT","O2C-00.001 General Elements
+I2O-02.010 Create Quotation
+20220712_EN_eT-B-SmartSystems V12_FINAL","O2C-00.001 General Elements
+20220712_EN_eT-B-SmartSystems V12_FINAL
+STI-02.020 Service Inhouse Repair","O2C-00.001 General Elements
+I2O-02.010 Create Quotation
+20220712_EN_eT-B-SmartSystems V12_FINAL"
+gf_010,How does the purchase order approval is working in SAP S/4HANA?,S2C-03.010,"S2C-03.010 Purchase Order Approval (Training DCPL) - slides
+O2C-03.036 LSP Determination - additional video - IT
+Q2E-02.050 Technical Customer Complaints_FIORI
+P2P-04.010. Goods Receipt Inspection
+P2P-01.020 MRP Master Data Training
+P2P-02.010 Material Planning","S2C-03.010 Purchase Order Approval (Training DCPL) - slides
+R2S-02.070 Create Purchase Process
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+P2P-01.020 MRP Master Data Training
+P2P-02.010 Material Planning
+R2S-02.120 BBX NSGS Process","S2C-03.010 Purchase Order Approval (Training DCPL) - slides
+Q2E-02.020 Manage Quality Master Data with BRF+
+Q2E-02.050 Technical Customer Complaints_FIORI
+P2P-01.020 MRP Master Data Training
+P2P-02.010 Material Planning","S2C-03.010 Purchase Order Approval (Training DCPL) - slides
+R2S-02.070 Create Purchase Process
+P2P-02.020 Procurement
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+P2P-01.020 MRP Master Data Training
+P2P-02.010 Material Planning
+P2S-02.020 Make to Order"
+gf_011,How does the make to stock (MTS) process looks like in SAP S/4HANA?,P2S-02.010,"P2S-02.010 Make to Stock
+Q2E-02.050 Technical Customer Complaints_FIORI
+Q2E-01.020 QM Process Overview CU
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+P2P-04.010. Goods Receipt Inspection
+O2C-03.036 LSP Determination - additional video - IT","P2S-02.010 Make to Stock
+P2S-01.010 Basic Training - Process Overview
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+P2S-02.020 Make to Order","P2S-02.010 Make to Stock
+Q2E-02.020 Manage Quality Master Data with BRF+
+R2S-06.010 Create Service Contract
+Q2E-02.050 Technical Customer Complaints_FIORI
+P2S-01.010 Basic Training - Process Overview
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI","P2S-02.010 Make to Stock
+P2S-01.010 Basic Training - Process Overview
+P2S-02.020 Make to Order
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI"
+gf_012,How to post a Goods Receipt in SAP S/4HANA?,"P2P-03.010, P2P-03.011, STI-03.011","R2S-05.010 Exchange Handling
+P2S-02.010 Make to Stock
+P2S-02.020 Make to Order
+P2P-03.011 Inbound Process in EWM - additional video
+STI-03.011 Inbound Process in EWM - additional video
+P2P-04.010. Goods Receipt Inspection
+P2P-03.010 GR Process incl CANC PACK PUTAWAY","P2S-02.010 Make to Stock
+Q2E-01.020 QM Process Overview CU
+STI-03.010 Production Integration Inbound
+P2P-04.010. Goods Receipt Inspection
+P2P-04.012_GR Inspection - Processing Quality Certificates
+STI-01.020 Warehouse Monitoring","P2S-02.010 Make to Stock
+STI-03.011 Inbound Process in EWM - additional video
+P2P-03.011 Inbound Process in EWM - additional video
+I2P-01.010_Procure Asset to be capitalized
+P2P-04.012_GR Inspection - Processing Quality Certificates","P2S-02.010 Make to Stock
+STI-03.010 Production Integration Inbound
+STI-03.011 Inbound Process in EWM - additional video
+I2P-01.010_Procure Asset to be capitalized
+P2P-04.010. Goods Receipt Inspection
+P2P-04.012_GR Inspection - Processing Quality Certificates
+STI-01.020 Warehouse Monitoring"
+gf_013,How to create a packaging instruction in SAP S/4HANA,"P2P-03.012, P2P-03.013, P2P-03.014","Q2E-01.020 QM Process Overview CU
+Q2E-02.040 Blocking functions with Q-Info Record and Adhoc process
+P2P-01.020 MRP Master Data Training
+O2C-03.036 LSP Determination - additional video - IT
+P2P-02.010 Material Planning
+O2C-03.020 Package Goods Standards
+O2C-03.021 Package Goods Certificates","O2C-03.021 Package Goods Certificates
+O2C-03.012 Prepare Outbound delivery - additional video
+P2P-02.010 Material Planning
+O2C-03.020 Package Goods Standards
+P2P-01.020 MRP Master Data Training
+R2S-02.070 Create Purchase Process","O2C-03.020 Package Goods Standards
+O2C-03.021 Package Goods Certificates
+R2S-06.010 Create Service Contract
+STI-02.020 Service Inhouse Repair
+P2P-02.010 Material Planning
+P2P-01.020 MRP Master Data Training","O2C-03.020 Package Goods Standards
+O2C-03.012 Prepare Outbound delivery - additional video
+O2C-03.021 Package Goods Certificates
+P2P-02.010 Material Planning
+P2P-01.020 MRP Master Data Training
+R2S-02.070 Create Purchase Process"
+gf_014,What are the relevant QM master data in the QM view in the material master data in SAP S/4HANA?,"Q2E-02.010, Q2E-02.011","Q2E-01.020 QM Process Overview CU
+Q2E-02.010 Master Data QM-View
+Q2E-02.020 Manage Quality Master Data with BRF+
+STI-01.010 EWM Basics
+R2S-06.010 Create Service Contract
+O2C-03.036 LSP Determination - additional video - IT","Q2E-02.010 Master Data QM-View
+Q2E-01.020 QM Process Overview CU
+Q2E-02.020 Manage Quality Master Data with BRF+
+Q2E-02.040 Blocking functions with Q-Info Record and Adhoc process
+P2P-01.020 MRP Master Data Training
+P2P-02.010 Material Planning","Q2E-02.010 Master Data QM-View
+Q2E-02.020 Manage Quality Master Data with BRF+
+Q2E-01.020 QM Process Overview CU
+STI-01.010 EWM Basics
+R2S-06.010 Create Service Contract","Q2E-01.020 QM Process Overview CU
+Q2E-02.030 Incoming Inspection Plan
+Q2E-02.010 Master Data QM-View
+Q2E-02.020 Manage Quality Master Data with BRF+
+B2P-02.020  Analyse change documents
+Q2E-02.011 Master Data Q-Info Record"
+gf_015,How to handle technical customer complaints in SAP S/4HANA?,Q2E-02.050,"Q2E-02.050 Technical Customer Complaints_FIORI
+STI-02.020 Service Inhouse Repair
+Q2E-01.020 QM Process Overview CU
+P2S-01.010 Basic Training - Process Overview
+Q2E-02.010 Master Data QM-View
+Q2E-02.020 Manage Quality Master Data with BRF+
+P2P-04.010. Goods Receipt Inspection
+O2C-03.036 LSP Determination - additional video - IT","Q2E-02.050 Technical Customer Complaints_FIORI
+Q2E-02.060 Sales Logistics Customer Complaint FIORI
+Q2E-02.010 Master Data QM-View
+Q2E-01.020 QM Process Overview CU
+O2C-03.022 Package Goods NSGS Material
+C2P-04.040 Create & Change S-BOM, easy P-BOM
+Q2E-02.011 Master Data Q-Info Record","Q2E-02.050 Technical Customer Complaints_FIORI
+R2S-06.010 Create Service Contract
+STI-02.020 Service Inhouse Repair
+Q2E-02.020 Manage Quality Master Data with BRF+
+P2S-01.010 Basic Training - Process Overview
+Q2E-02.010 Master Data QM-View","Q2E-02.050 Technical Customer Complaints_FIORI
+Q2E-01.020 QM Process Overview CU
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+STI-02.020 Service Inhouse Repair
+Q2E-02.010 Master Data QM-View"
+gf_016,How to create a Service Order in SAP S/4HANA?,R2S-02.000,"STI-02.020 Service Inhouse Repair
+R2S-02.120 BBX NSGS Process
+R2S-02.050 Create & Final Service Confirmation
+R2S-02.110 APM Number-Process
+R2S-05.020 Long Life Service
+R2S-02.020 FS Ressource Related","R2S-01.020 Create Quality Notification
+R2S-02.000 Create Service Order
+R2S-05.010 Exchange Handling
+R2S-02.020 FS Ressource Related
+P2P-01.020 MRP Master Data Training
+R2S-02.070 Create Purchase Process","STI-02.020 Service Inhouse Repair
+R2S-02.120 BBX NSGS Process
+R2S-03.000 Release Billing
+R2S-06.010 Create Service Contract
+R2S-05.020 Long Life Service
+R2S-02.050 Create & Final Service Confirmation","STI-02.020 Service Inhouse Repair
+R2S-06.020 Create Service Order for Contract
+R2S-02.000 Create Service Order
+R2S-02.110 APM Number-Process
+R2S-01.000 Create Service Request
+R2S-04.000 Completed Service Request & Order
+P2S-02.020 Make to Order"
+gf_017,How to complete Service Requests and Orders in SAP S/4HANA?,R2S-04.000,"STI-02.020 Service Inhouse Repair
+R2S-02.050 Create & Final Service Confirmation
+R2S-04.000 Completed Service Request & Order
+R2S-06.020 Create Service Order for Contract
+Q2E-02.050 Technical Customer Complaints_FIORI
+P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU","R2S-04.000 Completed Service Request & Order
+STI-02.020 Service Inhouse Repair
+P2P-02.010 Material Planning
+P2P-01.020 MRP Master Data Training
+O2C-03.061 Reverse Processing - No Warehouse Activity Started
+R2S-01.000 Create Service Request","STI-02.020 Service Inhouse Repair
+R2S-04.000 Completed Service Request & Order
+R2S-06.020 Create Service Order for Contract
+R2S-02.050 Create & Final Service Confirmation
+P2P-04.010. Goods Receipt Inspection
+Q2E-01.020 QM Process Overview CU","STI-02.020 Service Inhouse Repair
+R2S-04.000 Completed Service Request & Order
+R2S-02.050 Create & Final Service Confirmation
+R2S-06.020 Create Service Order for Contract
+Q2E-02.070 Manage Internal Complaints Y3 Notification GUI
+O2C-03.061 Reverse Processing - No Warehouse Activity Started"

@@ -1,0 +1,21 @@
+==== term: übersetz
+  hits: 7
+   2fc177aa-e02c-4246-bc7b-d3b1d69de258 :: 2 Herausgeber: Bosch Rexroth AG Bosch Rexroth Academy Unterdürrbacher Straße 10 97080 Würzburg, Germany Jede Form der Verwertung ist nur mit vorheriger Zustimmung des Herausgebers und unter Angabe der Quelle zulässig. Dies gilt insbesondere für die elektronisc
+   02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7 :: 19 Physikalische Grundlagen | Hydrostatische Kraft - und Wegübersetzung Gleichgewicht: oder F = Kraft (N) p = Druck (Pa) A = Fläche (m2) p1 = p2 V2 = A2 · s2 V1 = A1 · s1 Gleichgewicht: oder V1 = V2 V = (Hub-)Volumen (mm3) A = Kolbenfläche (mm2) s = Kolbenweg 
+   f19c1459-8070-49d2-862a-8f66ef70a5a4 :: A2 A1 F2 F1 = ? Gesucht F1 (Handkraft) in N (Newton) Gegeben mElefant (Masse) = 1.500 kg A1 (Fläche) = 40 cm2 A2 (Fläche) = 6000 cm2 (0,6 m²) Kraftübersetzung 1 : 150 Lösung F1 = 98,1 N F1 = F2 · A1 A2 = 14.715 N · 40 cm2 6000 cm2 = F1 F2 A1 A2 F2 = m·g F2 = 
+   540a3bb1-e758-47a9-88ee-0f91039cd7a2 :: Gesucht s2 (Kolbenweg) in mm Gegeben s1(Kolbenweg) = 150 mm A1 (Fläche) = 40 cm2 A2 (Fläche) = 6000 cm2 (6 m²) Lösung s2 = 1 mm = s1 s2 A2 A1 s2 = s1 · A1 A2 = 150 mm · 40 cm2 6000 cm2 Wegübersetzung 150 : 1 A2 A1 s1 s2 21 Physikalische Grundlagen | Wegüberse
+   8826dc04-9021-4889-868e-05f958a01472 :: F1 = F2  = p1 p2 A2 A1 p1 · A1 = p2 · A2 oder 22 Physikalische Grundlagen | Druckübersetzung
+   033dc7f0-e348-40e3-a40a-9ed0e7ff7401 :: Gesucht p2 (Druck) in bar Gegeben A1 (Fläche) = 90 cm2 A2 (Fläche) = 5 cm2 p1 (Druck) = 250 bar Lösung p2 = 4.500 bar = p1 p2 A2 A1 p2 = p1 · A1 A2 = 250 bar · 90 cm2 5 cm2 Druckübersetzung 1 : 18 23 Physikalische Grundlagen | Druckübersetzer
+   fc914763-1e15-4412-91dd-c29f81d80bd6 :: Doppeltwirkende Zylinder: Differenzialzylinder Einfach wirkende Zylinder: Plungerzylinder Vorteile ▪Preisgünstig ▪Reibungsarm Zu beachten ▪Nur Druckkräfte übertragbar ▪Rückhub durch eine Feder, äußere Krafteinwirkung oder Eigengewicht ▪Problematisch bei waager
+
+==== term: innenhochdruck
+  hits: 0
+
+==== term: presszylinder
+  hits: 3
+   bb19ccfc-f930-4e0b-b79f-d1514c9ecca9 :: Ein Hydraulikzylinder wird als Presszylinder, der Rohre verformt, eingesetzt. Gesucht ist die maximal mögliche Presskraft in kN bei den gegebenen Parametern. Technische Daten p = 200 bar d = 50 mm F = ? Lösung 𝐴= 𝑑²∙𝜋 4 = 50 mm ²∙𝜋 4 = 1963 mm2 = 19,63 cm² 𝐹= 
+   c31b01ee-7a60-4980-9862-f20b8148acb5 :: Steuerkolben 1 Vorentlastungselement 5 Hauptkegel 4 Feder der Hauptkegels 3 Feder des Steuerkolbens 2 1 2 3 4 5 17 Sperrventile | Füllventil zum Befüllen eines Presszylinders
+   b8fbe217-420a-4f9a-8a69-6e71e33ba723 :: Links: Phase 1: Entsperrung durch Unterdruck Mitte: Phase 2: Sperrung durch Rückstau im Anschluss B Rechts: Phase 3: Entsperrung durch Steuerdruck 18 Sperrventile | Füllventil zum Befüllen eines Presszylinders
+
+==== term: grundaufbau
+  hits: 0

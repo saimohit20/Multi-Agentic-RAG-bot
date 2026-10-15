@@ -1,0 +1,114 @@
+# =============================================================================
+# docker-compose.pipeline.yml
+#
+# Three separate, independently runnable pipeline stage containers.
+# All share the same built image (dc-available-pipeline) but run different
+# commands and have different roles.
+#
+# HOW TO RUN (in order):
+#
+#   Step 0 — Build the image once:
+#     docker compose -f docker-compose.pipeline.yml build
+#
+#   Step 1 — Run preprocessing (reads DC_data, writes to artifacts/ingestion):
+#     docker compose -f docker-compose.pipeline.yml run --rm preprocess
+#
+#   Step 2 — Run indexing (reads artifacts/ingestion, writes FAISS index):
+#     docker compose -f docker-compose.pipeline.yml run --rm index
+#
+#   Step 3 — Start the app (reads FAISS index, serves Streamlit on :8502):
+#     docker compose -f docker-compose.pipeline.yml up serve
+#
+# DEBUGGING a failing stage:
+#   Open an interactive shell inside any container:
+#     docker compose -f docker-compose.pipeline.yml run --rm preprocess bash
+# =============================================================================
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # STAGE — Preprocess  (was "ingest"; renamed — ingest is now the SharePoint
+  # publish stage). Reads raw training files from resources/DC_data (read-only).
+  # Produces per-training index.jsonl and summary files into
+  # resources/artifacts/DC_data/ingestion.
+  # ---------------------------------------------------------------------------
+  preprocess:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    image: dc-available-pipeline:latest
+    command: ["python", "-m", "pipeline.preprocess", "--source", "available", "--cleanup-downloads"]
+    env_file:
+      - path: .env          # Azure OpenAI keys etc. — file is optional
+        required: false
+    environment:
+      - AVAILABLE_APP_SOURCE=available
+    volumes:
+      # Raw training data — read-only, never modified by preprocess
+      - ./resources/DC_data:/app/resources/DC_data:ro
+      # Shared artifact folder — preprocess writes here, index reads from here
+      - ./resources/artifacts:/app/resources/artifacts
+      # HuggingFace model cache — avoids re-downloading the embedding model
+      - hf_cache:/root/.cache/huggingface
+
+  # ---------------------------------------------------------------------------
+  # STAGE 2 — Index
+  # Reads ingestion artifacts from resources/artifacts/DC_data/ingestion.
+  # Produces FAISS index files (index.faiss, index.pkl, index_ret.pkl) into
+  # resources/artifacts/DC_data/index.
+  # Also copies referenced images into resources/artifacts/DC_data/images.
+  # Run ONLY after preprocess has completed successfully.
+  # ---------------------------------------------------------------------------
+  index:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    image: dc-available-pipeline:latest
+    command: ["python", "-m", "pipeline.index", "--source", "available"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - AVAILABLE_APP_SOURCE=available
+    volumes:
+      # Shared artifact folder — index reads ingestion outputs and writes FAISS
+      - ./resources/artifacts:/app/resources/artifacts
+      # HuggingFace model cache — reuse same downloaded embedding model
+      - hf_cache:/root/.cache/huggingface
+
+  # ---------------------------------------------------------------------------
+  # STAGE 3 — Serve
+  # Reads FAISS index from resources/artifacts/DC_data/index.
+  # Starts the Streamlit assistant UI on port 8502.
+  # Run ONLY after index has completed successfully.
+  # ---------------------------------------------------------------------------
+  serve:
+    build:
+      context: .
+      dockerfile: Dockerfile.pipeline
+    image: dc-available-pipeline:latest
+    command: ["python", "-m", "pipeline.serve", "--source", "available", "--mode", "assistant"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - AVAILABLE_APP_SOURCE=available
+    volumes:
+      # Artifacts — serve needs the FAISS index and image cache from here
+      - ./resources/artifacts:/app/resources/artifacts
+      # Handbook files for the Handbook page in the UI
+      - ./resources/available_handbook:/app/resources/available_handbook:ro
+      # HuggingFace model cache
+      - hf_cache:/root/.cache/huggingface
+    ports:
+      # Access the app at http://localhost:8502
+      - "8502:8502"
+
+# =============================================================================
+# Named volumes
+# hf_cache: persists the downloaded HuggingFace embedding model across runs.
+#   Without this, the model (BAAI/bge-small-en-v1.5) is re-downloaded every
+#   time you start a container.
+# =============================================================================
+volumes:
+  hf_cache:

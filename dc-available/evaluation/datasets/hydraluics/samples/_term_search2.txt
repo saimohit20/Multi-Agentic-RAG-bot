@@ -1,0 +1,30 @@
+==== term: 'durchflussgeschwindigkeit'  hits=0
+
+==== term: 'v = q'  hits=0
+
+==== term: 'volumenstrom ist'  hits=2
+   9e884c15-1f3b-4c64-9797-4f4a7845fd3e :: Der Volumenstrom ist abhängig von: q ≈ A Ø q ≈ ∆ p q ≈ Viskosität ▪ Regelstrecke lang →laminare Strömung B A Blende Drossel Der Volumenstrom ist abhängig von: q ≈ A Ø q ≈ ∆ p ▪ Nahezu Temperaturunabhängig ▪ Regelstrecke kurz →turb
+   252e345b-d07a-452a-ab46-5952bbe15d3a :: Stromregelventile sind Stromventile zur Regelung des Volumenstroms unabhängig von Lastdruckänderungen. Stromregelventile kompensieren die Schwankungen des Ein- und Ausgangsdrucks sowie der Temperatur bzw. Viskosität und halten den
+
+==== term: 'widerstand'  hits=5
+   091584b8-8e48-4626-9f9f-b3827a118286 :: Kavitation bedeutet (lat. cavitare „aushöhlen“), man versteht darunter die Bildung von Hohlräumen in Flüssigkeiten. Kavitation entsteht wenn der absolute Druck von 0,8 bar in hydraulischen Anlagen unterschritten wird. Durch den sc
+   c6c13d96-c9d1-4d1e-b72f-bc7c2e89b020 :: Die Leistung und Qualität eines Wegeventils wird nach folgenden Kriterien beurteilt: Dynamische Leistungsgrenze Statische Leistungsgrenze Volumenstromwiderstand Leckage (bei Wegeschieberventilen) Schaltzeit Überdeckung im Ventil (
+   30fcf4cc-8679-4006-8455-dd653d020678 :: 29 Wegeventile | Volumenstromwiderstand
+   a1194f79-b0a3-4559-a7ce-9e1267e08f1f :: Beispiel Hinweis Bei Ermittlung des Druckverlustes ist neben der Kolbenausführung auch die Durchströmrichtung von Bedeutung! Gegeben RD 23178/Wegeventil NG 6 J-Schieber qV = 60 l/min P - A; P - B; A - T; B - T HLP46; TÖl = 40 °C 7
+   623bc47b-de9b-45b6-b5d8-eccc5f491202 :: Stromventile beeinflussen in Kombination mit einer anderen Komponente, z.B. einem Druckventil, die Bewegungsgeschwindigkeit von Verbrauchern. Durch die Änderung des Durchflusswiderstands ändert sich der Volumenstrom in Abhängigkei
+
+==== term: 'entfernung'  hits=0
+
+==== term: 'druckstutzen'  hits=0
+
+==== term: 'höchste'  hits=2
+   fe51da64-4a59-40aa-8de1-f100e760c8c8 :: Kleine Betätigungskräfte Große Mengen Sehr viele Varianten möglich Schaltüberdeckungen + + + + Leckagefrei Hohe Drücke bis 1.000 bar Kurzer Betätigungsweg + + + Leckage Bis 350 bar (hydr. Verklemmung!) Langer Betätigungsweg/ große
+   69477de5-0e29-45ee-a193-a5fa37498350 :: ▪Umgebung der Hydraulik ist kalt, dunkel, feucht ▪Einsatz nur sporadisch, dann aber mit höchsten Einsatzdaten ▪“fluidwechselfreie Hydraulik” ▪definierte Schwerentlammbarkeit ▪Gewählt: Schwerentflammbar wasserfreie Hydraulikflüssig
+
+==== term: 'entsteht durch'  hits=0
+
+==== term: 'a · v'  hits=2
+   b3000d63-06ec-4e11-9da1-9a9b89a81f6f :: s A A = Querschnittsfläche (m2) s = In der Zeit t zurückgelegter Weg (m) v = mittlere Strömungsgeschwindigkeit (m/s) mit V = A · s qV = A · s t mit v = qV = A · v  oder mit qV in l/min v in m/s di (Leitungsquerschnitt) in mm A i
+   df4df292-70eb-40fe-91d7-1c121565c59a :: Gesucht v (Strömungsgeschwindigkeit) in m/s & Re Turbulente Strömung Gegeben qV (Volumenstrom) = 125 l/min ReKrit (Reynolds Zahl) ≈ 2.300 n (kinematische Viskosität) = 46 mm2/s 30 4 qV A = 2.621 > ReKrit (2.300) Lösung A = di 2 · 
+
+==== term: 'q = a'  hits=0

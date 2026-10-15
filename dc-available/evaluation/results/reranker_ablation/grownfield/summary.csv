@@ -1,0 +1,4 @@
+config,hit@1,hit@3,hit@10,mrr,answer_correctness,mean_vector_time,mean_graph_time,mean_rerank_time,mean_generation_time,mean_retrieval_time
+no_rerank,0.6552,0.7586,0.931,0.7288,0.2817,2.294,4.896,0.0,6.187,7.192
+base,0.6552,0.7931,0.931,0.7425,0.2692,2.322,4.933,4.412,6.087,11.669
+v2m3,0.6207,0.7586,0.9655,0.7299,0.2856,2.316,4.975,15.314,6.251,22.609

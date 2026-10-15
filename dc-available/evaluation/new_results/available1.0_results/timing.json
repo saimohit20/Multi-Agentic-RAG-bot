@@ -1,0 +1,44 @@
+{
+  "grownfield": {
+    "name": "Grownfield",
+    "n": 23,
+    "retrieval_time_mean": 0.10085061304245914,
+    "retrieval_time_median": 0.06536580000829417,
+    "retrieval_time_p95": 0.07656600000336766,
+    "generation_time_mean": 2.9532914434764637,
+    "generation_time_median": 2.4126916999957757,
+    "generation_time_p95": 5.907953999994788,
+    "total_time_mean": 3.054142056518923,
+    "answer_quality": 0.8688222756458985,
+    "faithfulness_mean": 0.8854549086814533,
+    "answer_relevancy_mean": 0.8521896426103439
+  },
+  "hydraulics": {
+    "name": "Hydraulics",
+    "n": 59,
+    "retrieval_time_mean": 0.06643270169531777,
+    "retrieval_time_median": 0.06630000000586733,
+    "retrieval_time_p95": 0.0747418000100879,
+    "generation_time_mean": 1.7579083491518297,
+    "generation_time_median": 1.7158076000050642,
+    "generation_time_p95": 2.6575500999897486,
+    "total_time_mean": 1.8243410508471474,
+    "answer_quality": 0.5821820768608504,
+    "faithfulness_mean": 0.6085352269562796,
+    "answer_relevancy_mean": 0.5576208191639506
+  },
+  "synthetic": {
+    "name": "Synthetic",
+    "n": 1215,
+    "retrieval_time_mean": 0.06727047218100854,
+    "retrieval_time_median": 0.06754000000364613,
+    "retrieval_time_p95": 0.07611639999959152,
+    "generation_time_mean": 2.4163254615639236,
+    "generation_time_median": 2.239477299997816,
+    "generation_time_p95": 4.002512299994123,
+    "total_time_mean": 2.4835959337449323,
+    "answer_quality": 0.9010509975334268,
+    "faithfulness_mean": 0.8841716509044542,
+    "answer_relevancy_mean": 0.9177390718592968
+  }
+}

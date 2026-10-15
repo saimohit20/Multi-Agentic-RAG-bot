@@ -1,0 +1,995 @@
+[
+  {
+    "question_id": "q1",
+    "question": "Wodurch entsteht in der Hydrostatik eine Kraftwirkung?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G",
+      "35n___CytroPac   Profinet___EN",
+      "11+20___Agenda + Overview_Datum falsch___neues Design"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q2",
+    "question": "Nennen Sie 5 spezielle Eigenschaften der Hydraulik.",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G",
+      "33n___CytroPac   IO-Diagnostics___EN",
+      "35n___CytroPac   Profinet___EN",
+      "11+20___Agenda + Overview_Datum falsch___neues Design"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ]
+  },
+  {
+    "question_id": "q3",
+    "question": "In welcher Größenordnung bewegt sich normalerweise der Gesamtwirkungsgrad nges einer Hydraulikanlage?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q4",
+    "question": "Wie würden Sie den Grundaufbau einer Hydraulikanlage beschreiben?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G",
+      "33n___CytroPac   IO-Diagnostics___EN",
+      "11+20___Agenda + Overview_Datum falsch___neues Design",
+      "35n___CytroPac   Profinet___EN"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ]
+  },
+  {
+    "question_id": "q5",
+    "question": "Nennen Sie mindestens 4 Bauteile aus dem Energieversorgungsteil und mindestens 3 Bauteile aus dem Steuerungsteil.",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q6",
+    "question": "Wo liegt auf der Absolutdruckskala der Wert für den „Unterdruck“ von p_e = 0,3 bar?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q7",
+    "question": "Die Einheit für den Druck ist Pascal (Pa). Welche Aussage ist richtig?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q8",
+    "question": "Eine Masse von m = 1.200 kg soll hochgehoben werden. Der max. Betriebsduck beträgt p = 120 bar. Wie groß ist der erforderliche Kolbendurchmesser in mm?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q9",
+    "question": "Skizzieren Sie einen Druckübersetzer und beschriften Sie die „Parameter“. Ergänzen Sie die Skizze mit der korrekten Formel für die Druck- und Flächenverhältnisse. Wo werden z. B. Druckübersetzer in der Praxis eingesetzt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q10",
+    "question": "Worin besteht der wesentliche Unterschied zwischen Druckübersetzung und Kraftübersetzung hinsichtlich der Flüssigkeitsräume?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q11",
+    "question": "Welche Aussage hinsichtlich des Volumenstroms q in einer Hydroanlage ist korrekt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q12",
+    "question": "Welche Aussage bezüglich der max. zulässigen Strömungsgeschwindigkeit vmax in einer Saugleitung (Saugbetrieb) ist richtig?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q13",
+    "question": "Was muss vorliegen, damit ein Fluid überhaupt strömen kann?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q14",
+    "question": "Worin liegt der wesentliche Unterschied hinsichtlich der auftretenden Druckverluste bei laminarer bzw. turbulenter Strömung?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q15",
+    "question": "Wo kann man in einem hydraulischen System im Allgemeinen den höchsten Druck messen? (Mit Begründung!)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q16",
+    "question": "Welche Aussage ist richtig?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "STI-01.020 Warehouse Monitoring",
+      "P2S-02.010 Make to Stock",
+      "R2S-01.010 Create Service Quotation"
+    ],
+    "entity_3hop": [
+      "STI-01.020 Warehouse Monitoring",
+      "P2S-02.010 Make to Stock",
+      "R2S-01.010 Create Service Quotation"
+    ],
+    "ppr": [
+      "P2S-02.010 Make to Stock",
+      "R2S-02.030 Create Service Quotation (Inhouse Repair)"
+    ]
+  },
+  {
+    "question_id": "q17",
+    "question": "In welcher Schaltstellung werden Ventile im Schaltplan dargestellt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q18",
+    "question": "Was bedeutet bei Wegeventilen die Angabe 4/3?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q19",
+    "question": "Welche Aufgaben haben Hydropumpen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q20",
+    "question": "Wie entsteht der Druck in einer Anlage?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q21",
+    "question": "Welche Haupt-Parameter haben einen Einfluss auf den Pumpenvolumenstrom?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q22",
+    "question": "Die hydraulische Leistung einer Pumpe wird größer, wenn",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q23",
+    "question": "Welche Aussage ist richtig?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "STI-01.020 Warehouse Monitoring",
+      "P2S-02.010 Make to Stock",
+      "R2S-01.010 Create Service Quotation"
+    ],
+    "entity_3hop": [
+      "STI-01.020 Warehouse Monitoring",
+      "P2S-02.010 Make to Stock",
+      "R2S-01.010 Create Service Quotation"
+    ],
+    "ppr": [
+      "P2S-02.010 Make to Stock",
+      "R2S-02.030 Create Service Quotation (Inhouse Repair)"
+    ]
+  },
+  {
+    "question_id": "q24",
+    "question": "Mit steigendem Druck wird der Pumpenvolumenstrom (bei sonst unveränderlichen Randdaten!)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q25",
+    "question": "Warum sollte der Eingangsdruck bei Pumpen den Wert von p_abs.,min = 0,8 bar (dauerhaft) nicht unterschreiten?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "35n___CytroPac   Profinet___EN",
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "11+20___Agenda + Overview_Datum falsch___neues Design"
+    ],
+    "ppr": [
+      "35n___CytroPac   Profinet___EN",
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q26",
+    "question": "Ermitteln Sie die jeweilige hydraulische Leistung.",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G",
+      "33n___CytroPac   IO-Diagnostics___EN",
+      "35n___CytroPac   Profinet___EN",
+      "11+20___Agenda + Overview_Datum falsch___neues Design"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "10___Start_Organisation HED-G"
+    ]
+  },
+  {
+    "question_id": "q27",
+    "question": "Bei Hydropumpen spricht man von Verdrängungsvolumen. Wie lautet die entsprechende Bezeichnung bei Hydromotoren?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q28",
+    "question": "Benennen Sie die mechanischen und hydraulischen „Eingangs- und Ausgangsgrößen“ von Pumpen und Motoren.",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q29",
+    "question": "Warum werden Hydrozylinder im Allgemeinen mit Endlagendämpfungen ausgerüstet?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q30",
+    "question": "Welche Aufgabe haben Sperrventile?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q31",
+    "question": "Welche Dichtelementformen werden bei Sperrventilen eingesetzt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q32",
+    "question": "Welche Aussage hinsichtlich des Dichtverhaltens bei Sperrventilen ist korrekt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q33",
+    "question": "Was ist die Aufgabe von Wegeventilen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q34",
+    "question": "Welche beiden gängigen Varianten existieren bei den Wegeventilen? Welche von beiden weist im Allgemeinen Leckage auf und warum?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q35",
+    "question": "Wodurch wird das Schaltverhalten eines Schieberventils maßgeblich beeinflusst? Bei welcher Variante treten 'positive' Druckspitzen auf?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q36",
+    "question": "Wo sind Wegesitzventile hauptsächlich anzutreffen und warum?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q37",
+    "question": "Wann und warum werden vorgesteuerte Wegeventile eingesetzt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q38",
+    "question": "Durch welche 4 Hauptkriterien wird die Qualität eines Wegeventils mit Schieber gekennzeichnet?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q39",
+    "question": "Welche Aussage ist korrekt? Welche NG's werden in der Stationärhydraulik im Allgemeinen direktgesteuert? Welche vorgesteuert?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q40",
+    "question": "Nach dem Öffnen eines Druckbegrenzungsventils (DB)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q41",
+    "question": "Wo wird bei einem direktbetätigten Druckbegrenzungsventil der Steuerdruck abgegriffen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q42",
+    "question": "Zwei Druckbegrenzungsventile wurden separat bei einem definierten Volumenstrom qv auf dem Prüfstand auf einen Druck von jeweils 60 bar eingestellt. Welcher Druck wird vor dem ersten abgelesen, wenn beide Ventile in Reihe geschaltet und von qv durchströmt werden?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q43",
+    "question": "Welcher Druck würde sich einstellen, wenn die beiden Ventile parallel geschaltet werden?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q44",
+    "question": "Wann werden vorgesteuerte Druckbegrenzungsventile hauptsächlich eingesetzt?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q45",
+    "question": "Wie sehen die Kennlinien von direktbetätigten und vorgesteuerten Druckbegrenzungsventilen prinzipiell aus?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q46",
+    "question": "Wo wird das Steuerdrucksignal bei Druckreduzierventilen abgegriffen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q47",
+    "question": "Was ist die Aufgabe von Stromventilen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q48",
+    "question": "Welche zwei Drosseltypen kennen Sie?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q49",
+    "question": "Welche Faktoren beeinflussen die Höhe des Volumenstroms durch eine Blende?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q50",
+    "question": "Bei Vervierfachung des an einer Blende anstehenden Δp's (= Druckgefälles)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q51",
+    "question": "Hat bei temperaturkompensierten 2-Wege-Stromregelventilen der Lastdruck einen Einfluss auf den Volumenstrom? (mit Begründung)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q52",
+    "question": "Welches Flüssigkeitsvolumen VB sollte in der Stationärhydraulik der Behälter aufweisen?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q53",
+    "question": "Nennen Sie 4 Hauptaufgaben der Druckflüssigkeiten.",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q54",
+    "question": "Mit sinkender Öl-Temperatur wird das Öl",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q55",
+    "question": "Welche Aussage ist richtig? (gleicher Druck in allen 3 Fällen)",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q56",
+    "question": "Was bewirkt ungelöste Luft in der Druckflüssigkeit hinsichtlich seiner Zusammendrückbarkeit?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q57",
+    "question": "Was könnten die Ursachen von a) Dunkelfärbung, b) milchiger Trübung, c) Luftbläschen im Öl sein?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+    ],
+    "entity_3hop": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+    ],
+    "ppr": [
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+    ]
+  },
+  {
+    "question_id": "q58",
+    "question": "Was ist die Hauptaufgabe von Filtern?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "O2C-00.005 Process Control Elements",
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ],
+    "entity_3hop": [
+      "O2C-00.005 Process Control Elements",
+      "01_Teilnehmerunterlage_RT04-004_DE",
+      "R2S-02.120 BBX NSGS Process",
+      "O2C-03.022 Package Goods NSGS Material",
+      "O2C-03.020 Package Goods Standards",
+      "O2C-04.022 Manage Credit Memo Request - DownPayment Invoice",
+      "R2S-02.090 Create Advanced Shipment Sales Order",
+      "O2C-03.031 Assign Freight Forwarder - automatically (Material Weight)"
+    ],
+    "ppr": [
+      "O2C-00.005 Process Control Elements",
+      "01_Teilnehmerunterlage_RT04-004_DE"
+    ]
+  },
+  {
+    "question_id": "q59",
+    "question": "Kann frisches Fassöl bedenkenlos eingefüllt werden?",
+    "golden_source": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "entity_1hop": [
+      "O2C-03.051 Execute Transport - Loading",
+      "O2C-04.011 Manage Customer Billing - Free of Charge"
+    ],
+    "entity_3hop": [
+      "O2C-03.051 Execute Transport - Loading",
+      "R2S-02.120 BBX NSGS Process"
+    ],
+    "ppr": [
+      "O2C-03.051 Execute Transport - Loading",
+      "O2C-03.020 Package Goods Standards"
+    ]
+  }
+]

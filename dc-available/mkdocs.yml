@@ -1,0 +1,4 @@
+site_name: AIM-205 Docs
+
+theme:
+  name: material

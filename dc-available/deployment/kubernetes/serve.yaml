@@ -1,0 +1,117 @@
+# =============================================================================
+# serve.yaml  —  the public Streamlit app (Deployment + Service + Ingress).
+#
+#   Deployment = keeps the app pod running (stateless-ish, so Deployment not StatefulSet)
+#   Service    = stable in-cluster address for the app pods
+#   Ingress    = maps a PUBLIC URL -> the Service (the front door)
+#
+# The app READS the shared data volume (docstore .pkl, graph, image cache,
+# handbook) and TALKS to Qdrant at qdrant:6333. It answers with gpt-4o, so it
+# also uses the Workload Identity + OpenAI ConfigMap.
+#
+# ORDER: deploy this AFTER the pipeline has populated data at least once —
+# pipeline.serve refuses to start until the docstore + Qdrant collection exist
+# (it will CrashLoop-restart until they do, which is fine).
+#
+# Apply:  kubectl apply -f deployment/kubernetes/serve.yaml
+# =============================================================================
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: serve
+  namespace: available-2
+spec:
+  replicas: 1                     # Streamlit keeps session state in the pod's memory ->
+                                  # keep 1 (or add sticky sessions before scaling up).
+  selector:
+    matchLabels:
+      app: serve
+  template:
+    metadata:
+      labels:
+        app: serve
+        azure.workload.identity/use: "true"     # Azure OpenAI identity (answering)
+    spec:
+      serviceAccountName: available-workload-identity
+      containers:
+        - name: serve
+          image: acravailable.azurecr.io/dc-available-pipeline:latest
+          command: ["python", "-m", "pipeline.serve", "--source", "available", "--mode", "assistant"]
+          ports:
+            - containerPort: 8501
+          env:
+            - name: AVAILABLE_APP_SOURCE
+              value: "available"
+            - name: QDRANT_URL
+              value: "http://qdrant:6333"
+            - name: QDRANT_COLLECTION            # reuse the restored local collection (not the 'available' default)
+              value: "available2.0"
+            - name: IN_DOCKER
+              value: "1"
+            - name: HF_HOME                       # reuse the embedding model the pipeline downloaded
+              value: "/app/dc_available/data/.hf_cache"
+            # --- make Streamlit reachable inside the container (serve.py sets no flags) ---
+            - name: STREAMLIT_SERVER_ADDRESS
+              value: "0.0.0.0"
+            - name: STREAMLIT_SERVER_PORT
+              value: "8501"
+            - name: STREAMLIT_SERVER_HEADLESS
+              value: "true"
+            - name: STREAMLIT_SERVER_ENABLE_CORS
+              value: "false"
+            - name: STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION
+              value: "false"
+            # - name: OPIK_URL_OVERRIDE           # uncomment once Opik is deployed
+            #   value: "http://opik-frontend.opik.svc.cluster.local:5173/api"
+          envFrom:
+            - configMapRef:
+                name: available-openai            # AZURE_ENDPOINT, API_VERSION
+          volumeMounts:
+            - name: data
+              mountPath: /app/dc_available/data
+          readinessProbe:
+            httpGet: { path: /_stcore/health, port: 8501 }
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          resources:
+            requests: { cpu: "1",  memory: "4Gi" }
+            limits:   { cpu: "4",  memory: "8Gi" }
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: available-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: serve
+  namespace: available-2
+spec:
+  selector:
+    app: serve
+  ports:
+    - port: 80
+      targetPort: 8501
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: serve
+  namespace: available-2
+  annotations:
+    # Streamlit uses long-lived websockets -> raise proxy timeouts.
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+spec:
+  ingressClassName: nginx
+  rules:
+    - http:                                # no host: -> matches any host, so browse via the raw ingress IP
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: serve
+                port:
+                  number: 80
+  # (HTTPS/TLS is added in Phase 5 via cert-manager: a tls: block + a certificate.)

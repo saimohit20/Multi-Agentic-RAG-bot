@@ -1,0 +1,8 @@
+{
+  "hydraulics": {
+    "faithfulness": 0.5726779173207744,
+    "answer_relevancy": 0.5448477736914368,
+    "context_precision": 0.317539906718605,
+    "context_recall": 0.4110169491525424
+  }
+}

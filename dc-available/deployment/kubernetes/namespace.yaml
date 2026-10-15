@@ -1,0 +1,12 @@
+# =============================================================================
+# namespace.yaml  —  a "folder" inside the cluster to group all our app objects.
+#
+# Everything for the app (CronJob, PVC, Secret, Qdrant, serve) lives in the
+# 'dc-available' namespace, so it stays separate from other things (e.g. 'opik').
+#
+# Apply FIRST:  kubectl apply -f deployment/kubernetes/namespace.yaml
+# =============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: available-2

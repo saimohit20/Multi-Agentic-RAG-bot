@@ -1,0 +1,42 @@
+{
+  "entity_khop_legacy": {
+    "doc_hit@1": 0.9153,
+    "doc_hit@3": 0.9492,
+    "doc_hit@10": 0.9492,
+    "doc_mrr": 0.9322,
+    "chunk_hit@1": 0.1154,
+    "chunk_hit@3": 0.1346,
+    "chunk_hit@10": 0.1346,
+    "chunk_mrr": 0.125
+  },
+  "entity_khop_merge": {
+    "doc_hit@1": 0.9153,
+    "doc_hit@3": 0.9492,
+    "doc_hit@10": 0.9492,
+    "doc_mrr": 0.9322,
+    "chunk_hit@1": 0.1538,
+    "chunk_hit@3": 0.2115,
+    "chunk_hit@10": 0.2115,
+    "chunk_mrr": 0.1795
+  },
+  "ppr_legacy": {
+    "doc_hit@1": 0.9322,
+    "doc_hit@3": 0.9492,
+    "doc_hit@10": 0.9492,
+    "doc_mrr": 0.9407,
+    "chunk_hit@1": 0.0385,
+    "chunk_hit@3": 0.0577,
+    "chunk_hit@10": 0.0577,
+    "chunk_mrr": 0.0481
+  },
+  "ppr_merge": {
+    "doc_hit@1": 0.9153,
+    "doc_hit@3": 0.9492,
+    "doc_hit@10": 0.9492,
+    "doc_mrr": 0.9322,
+    "chunk_hit@1": 0.0577,
+    "chunk_hit@3": 0.0769,
+    "chunk_hit@10": 0.0769,
+    "chunk_mrr": 0.0641
+  }
+}

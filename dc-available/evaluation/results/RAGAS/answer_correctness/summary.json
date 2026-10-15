@@ -1,0 +1,21 @@
+{
+  "grownfield": {
+    "n": 23,
+    "answer_correctness": 0.228
+  },
+  "hydraulics": {
+    "n": 59,
+    "answer_correctness": 0.3153
+  },
+  "synthetic": {
+    "n": 1215,
+    "answer_correctness": 0.5847,
+    "by_question_type": {
+      "factual": 0.7137,
+      "conceptual": 0.5575,
+      "procedural": 0.5487,
+      "application": 0.5257,
+      "summary": 0.5777
+    }
+  }
+}

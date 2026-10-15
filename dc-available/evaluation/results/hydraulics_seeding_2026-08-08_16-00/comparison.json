@@ -1,0 +1,4863 @@
+[
+  {
+    "question_id": "q1",
+    "question": "Wodurch entsteht in der Hydrostatik eine Kraftwirkung?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "e4390f6c-3474-459e-ab55-acf3744e4e5a"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q2",
+    "question": "Nennen Sie 5 spezielle Eigenschaften der Hydraulik.",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "92017f34-7055-4686-b2ad-1f6c1b89a89f"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "10___Start_Organisation HED-G",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "a318213c-1f90-40f4-92b4-74036b9afb2d",
+          "preview": "```json {   \"title\": \"Hydraulik – Elektrifizierung und Digitalisierung – Grundlagen\",   \"description\": \"The integration"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e081cebb-0fce-423c-8630-c07093b6c19c",
+          "preview": "```json {   \"title\": \"Basiswissen Hydraulik\",   \"description\": \"This slide titled 'Trainingsunterlage RT04-004 - Basiswi"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "72167d05-1848-4ab9-bee1-3548e6767cf7",
+          "preview": "Drive & Control Academy | 07.2019 © Bosch Rexroth AG 2018. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertu"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7e459c86-f003-46e1-a217-257722841eb9",
+          "preview": "```json {   \"title\": \"Einleitung | Merkmale der Hydraulik\",   \"description\": {     \"Vorteile\": [       \"Hohe Kraftdichte"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "92017f34-7055-4686-b2ad-1f6c1b89a89f",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "a318213c-1f90-40f4-92b4-74036b9afb2d",
+          "preview": "```json {   \"title\": \"Hydraulik – Elektrifizierung und Digitalisierung – Grundlagen\",   \"description\": \"The integration"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "6ded347f-70bd-452a-a5d0-ac1c74dd2142",
+          "preview": "Drive & Control Academy | 07.2019 © Bosch Rexroth AG 2018. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertu"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c8964527-d922-4c47-963e-1179259d41cb",
+          "preview": "```json {   \"title\": \"Introduction | Definition of Hydraulics\",   \"description\": {     \"definition\": \"Hydraulics derives"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c8964527-d922-4c47-963e-1179259d41cb",
+          "preview": "```json {   \"title\": \"Introduction | Definition of Hydraulics\",   \"description\": {     \"definition\": \"Hydraulics derives"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q3",
+    "question": "In welcher Größenordnung bewegt sich normalerweise der Gesamtwirkungsgrad nges einer Hydraulikanlage?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "aa64263b-4b17-449b-9e8f-e2f2b45e523b"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "60278c1b-b307-4b8e-abc9-f64ad28bff77",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1affd68c-c707-42d6-b438-d713d75bc023",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "60278c1b-b307-4b8e-abc9-f64ad28bff77",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "576d3ddf-bdc8-49ce-a291-c6437e79a5a6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1affd68c-c707-42d6-b438-d713d75bc023",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1affd68c-c707-42d6-b438-d713d75bc023",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "576d3ddf-bdc8-49ce-a291-c6437e79a5a6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q4",
+    "question": "Wie würden Sie den Grundaufbau einer Hydraulikanlage beschreiben?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "9ced079f-a94c-4cb2-b097-1c7822608ce7"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7e459c86-f003-46e1-a217-257722841eb9",
+          "preview": "```json {   \"title\": \"Einleitung | Merkmale der Hydraulik\",   \"description\": {     \"Vorteile\": [       \"Hohe Kraftdichte"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "a318213c-1f90-40f4-92b4-74036b9afb2d",
+          "preview": "```json {   \"title\": \"Hydraulik – Elektrifizierung und Digitalisierung – Grundlagen\",   \"description\": \"The integration"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "72167d05-1848-4ab9-bee1-3548e6767cf7",
+          "preview": "Drive & Control Academy | 07.2019 © Bosch Rexroth AG 2018. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertu"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7e459c86-f003-46e1-a217-257722841eb9",
+          "preview": "```json {   \"title\": \"Einleitung | Merkmale der Hydraulik\",   \"description\": {     \"Vorteile\": [       \"Hohe Kraftdichte"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c8964527-d922-4c47-963e-1179259d41cb",
+          "preview": "```json {   \"title\": \"Introduction | Definition of Hydraulics\",   \"description\": {     \"definition\": \"Hydraulics derives"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6074552e-b8b3-455f-8267-ee5d5587bba3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a5eb53e6-47c2-4b38-95cc-41be142eaf9d",
+          "preview": "```json {   \"title\": \"Einleitung | Schaltplan\",   \"description\": {     \"schematisch\": {       \"content\": \"A schematic di"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q5",
+    "question": "Nennen Sie mindestens 4 Bauteile aus dem Energieversorgungsteil und mindestens 3 Bauteile aus dem Steuerungsteil.",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "1a6c3b7a-3ea2-469f-815b-504f64a3c2cd"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b992aa09-68f0-49d9-9ff2-0e42ed9e0884",
+          "preview": "```json {   \"title\": \"Introduction | Energy Transformation in a Hydraulic System\",   \"description\": {     \"sections\": ["
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9ced079f-a94c-4cb2-b097-1c7822608ce7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b992aa09-68f0-49d9-9ff2-0e42ed9e0884",
+          "preview": "```json {   \"title\": \"Introduction | Energy Transformation in a Hydraulic System\",   \"description\": {     \"sections\": ["
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9ced079f-a94c-4cb2-b097-1c7822608ce7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1a6c3b7a-3ea2-469f-815b-504f64a3c2cd",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "05737d9b-755d-4832-bb8f-8661eece6c57",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1a6c3b7a-3ea2-469f-815b-504f64a3c2cd",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "05737d9b-755d-4832-bb8f-8661eece6c57",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q6",
+    "question": "Wo liegt auf der Absolutdruckskala der Wert für den „Unterdruck“ von p_e = 0,3 bar?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "827b3dd0-9aec-4d64-92f8-1c28187b3544",
+      "f76812f9-b5c3-4556-b24f-00a678e37fe4"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "67627ab6-1fb8-427b-834c-6ebfbbece04c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "827b3dd0-9aec-4d64-92f8-1c28187b3544",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f76812f9-b5c3-4556-b24f-00a678e37fe4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "55543cc5-8006-40c3-85fa-9e9441a3096a",
+          "preview": "```json {   \"title\": \"Physikalische Grundlagen | Einheiten umrechnen\",   \"description\": {     \"content\": \"The slide prov"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "d24c0736-d196-498f-b6c0-8545a8951681",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q7",
+    "question": "Die Einheit für den Druck ist Pascal (Pa). Welche Aussage ist richtig?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "6d660332-e614-4dac-9c42-7163476dace4"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f76812f9-b5c3-4556-b24f-00a678e37fe4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "827b3dd0-9aec-4d64-92f8-1c28187b3544",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "55543cc5-8006-40c3-85fa-9e9441a3096a",
+          "preview": "```json {   \"title\": \"Physikalische Grundlagen | Einheiten umrechnen\",   \"description\": {     \"content\": \"The slide prov"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "67627ab6-1fb8-427b-834c-6ebfbbece04c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "55543cc5-8006-40c3-85fa-9e9441a3096a",
+          "preview": "```json {   \"title\": \"Physikalische Grundlagen | Einheiten umrechnen\",   \"description\": {     \"content\": \"The slide prov"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "55543cc5-8006-40c3-85fa-9e9441a3096a",
+          "preview": "```json {   \"title\": \"Physikalische Grundlagen | Einheiten umrechnen\",   \"description\": {     \"content\": \"The slide prov"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "67627ab6-1fb8-427b-834c-6ebfbbece04c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q8",
+    "question": "Eine Masse von m = 1.200 kg soll hochgehoben werden. Der max. Betriebsduck beträgt p = 120 bar. Wie groß ist der erforderliche Kolbendurchmesser in mm?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "d1a2b251-cbfc-434e-ac61-678074f0ac9d"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "67627ab6-1fb8-427b-834c-6ebfbbece04c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7b1c32-a7f5-4ee8-a99d-52a1e30b1ce4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7b1c32-a7f5-4ee8-a99d-52a1e30b1ce4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7b1c32-a7f5-4ee8-a99d-52a1e30b1ce4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q9",
+    "question": "Skizzieren Sie einen Druckübersetzer und beschriften Sie die „Parameter“. Ergänzen Sie die Skizze mit der korrekten Formel für die Druck- und Flächenverhältnisse. Wo werden z. B. Druckübersetzer in der Praxis eingesetzt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "8826dc04-9021-4889-868e-05f958a01472"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "033dc7f0-e348-40e3-a40a-9ed0e7ff7401",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8826dc04-9021-4889-868e-05f958a01472",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "033dc7f0-e348-40e3-a40a-9ed0e7ff7401",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8826dc04-9021-4889-868e-05f958a01472",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "033dc7f0-e348-40e3-a40a-9ed0e7ff7401",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "d5500358-eb94-4e82-a9e2-98ee4fa11819",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q10",
+    "question": "Worin besteht der wesentliche Unterschied zwischen Druckübersetzung und Kraftübersetzung hinsichtlich der Flüssigkeitsräume?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "8826dc04-9021-4889-868e-05f958a01472",
+      "f19c1459-8070-49d2-862a-8f66ef70a5a4"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8826dc04-9021-4889-868e-05f958a01472",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f19c1459-8070-49d2-862a-8f66ef70a5a4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "02f8cbe0-fb53-42b7-bf53-50d5a38d3bd7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q11",
+    "question": "Welche Aussage hinsichtlich des Volumenstroms q in einer Hydroanlage ist korrekt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "b3000d63-06ec-4e11-9da1-9a9b89a81f6f"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9e884c15-1f3b-4c64-9797-4f4a7845fd3e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "cd83c993-289d-4c42-b87d-3cf8a15889bc",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8d140c3c-8991-4043-98a7-5624430811c6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8d140c3c-8991-4043-98a7-5624430811c6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q12",
+    "question": "Welche Aussage bezüglich der max. zulässigen Strömungsgeschwindigkeit vmax in einer Saugleitung (Saugbetrieb) ist richtig?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "9b9080c7-5f3e-4816-b612-e39d5620b4ba"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9b9080c7-5f3e-4816-b612-e39d5620b4ba",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dbda6727-90e3-498a-94f4-e92362d76e44",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 07_Kavitation_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzg"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9b9080c7-5f3e-4816-b612-e39d5620b4ba",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dbda6727-90e3-498a-94f4-e92362d76e44",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 07_Kavitation_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzg"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e933b562-c479-44a3-8a77-2e1f06611d18",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e933b562-c479-44a3-8a77-2e1f06611d18",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q13",
+    "question": "Was muss vorliegen, damit ein Fluid überhaupt strömen kann?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "9db5de7d-3a3f-486d-b113-384f7291e706"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "84cc6089-5aad-471c-8129-33e1b35fe0b9",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dd49dc23-8903-4593-89de-81048a72d14e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "84cc6089-5aad-471c-8129-33e1b35fe0b9",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dd49dc23-8903-4593-89de-81048a72d14e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "84cc6089-5aad-471c-8129-33e1b35fe0b9",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dd49dc23-8903-4593-89de-81048a72d14e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "84cc6089-5aad-471c-8129-33e1b35fe0b9",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dd49dc23-8903-4593-89de-81048a72d14e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q14",
+    "question": "Worin liegt der wesentliche Unterschied hinsichtlich der auftretenden Druckverluste bei laminarer bzw. turbulenter Strömung?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "36c4313f-f6db-437c-aeef-21bdeb6d7dce"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "36c4313f-f6db-437c-aeef-21bdeb6d7dce",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e9adbacc-b01f-4070-9d0f-3e3aace7d2ec",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "36c4313f-f6db-437c-aeef-21bdeb6d7dce",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8d140c3c-8991-4043-98a7-5624430811c6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q15",
+    "question": "Wo kann man in einem hydraulischen System im Allgemeinen den höchsten Druck messen? (Mit Begründung!)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "71296f18-d36e-4713-af06-9e9ce78678b7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "71296f18-d36e-4713-af06-9e9ce78678b7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "71296f18-d36e-4713-af06-9e9ce78678b7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "71296f18-d36e-4713-af06-9e9ce78678b7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q16",
+    "question": "Welche Aussage ist richtig?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "078b223d-464d-42cf-b6d6-eb3b1dcb23f4"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "4ebbbcb8-8230-42ac-b583-5e98991b6d9b",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock",
+        "R2S-01.010 Create Service Quotation"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-01.010 Create Service Quotation",
+          "id": "97a7eedf-0474-43f1-9f60-2f48c57ec709",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "7eb23d4b-41f4-4de1-8efa-8724d81dc7c2",
+          "preview": "```json {   \"title\": \"EWM Monitoring and Reporting: ERP Stock Check\",   \"description\": {     \"key_message\": \"When there"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "P2S-02.010 Make to Stock",
+        "R2S-02.030 Create Service Quotation (Inhouse Repair)"
+      ],
+      "chunks": [
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-02.030 Create Service Quotation (Inhouse Repair)",
+          "id": "ed83102a-17ca-47d3-b745-d9eae2696d83",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-02.030 Create Service Quotation (Inhouse Repair)",
+          "id": "03e8c04d-45f2-4d90-8c66-8cafe93be7b9",
+          "preview": "```json {   \"title\": \"Quotation -> Release Service Order | Step 3\",   \"description\": {     \"instructions\": \"Click on 'Cr"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q17",
+    "question": "In welcher Schaltstellung werden Ventile im Schaltplan dargestellt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "ad9d79e7-31ed-467a-b0dd-8f929ce860dd"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "3c4bdd59-75f6-47cc-82ff-b1fdc16ed1c5",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "581b97da-930b-450d-8b25-9e3cfc528fd4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q18",
+    "question": "Was bedeutet bei Wegeventilen die Angabe 4/3?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "08f401dc-f98d-4bdd-a586-20ae0caf86e7"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "24025b5b-c232-46a1-bd97-b340eef3536e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "24025b5b-c232-46a1-bd97-b340eef3536e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "17a874af-9356-4e32-944e-c6737a9019d6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "24025b5b-c232-46a1-bd97-b340eef3536e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "24025b5b-c232-46a1-bd97-b340eef3536e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q19",
+    "question": "Welche Aufgaben haben Hydropumpen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "fe6b3ddc-55c6-419a-88ec-b750ae76b5b2"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "19d99422-af0b-45d0-92cd-5b10913d13bd",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "aae5bda3-25f6-4d41-b99a-c86e9da39512",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "19d99422-af0b-45d0-92cd-5b10913d13bd",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a7b06857-3b46-4388-b884-8cfae7486889",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "aae5bda3-25f6-4d41-b99a-c86e9da39512",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0aa3dfef-2bcf-48be-9711-4bb1aaa76f3b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "aae5bda3-25f6-4d41-b99a-c86e9da39512",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0aa3dfef-2bcf-48be-9711-4bb1aaa76f3b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q20",
+    "question": "Wie entsteht der Druck in einer Anlage?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "29bf31db-ec7a-46f5-a2a2-bfb72eabb92b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c6190d49-4124-43ad-a2c8-07e60ffbd291",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q21",
+    "question": "Welche Haupt-Parameter haben einen Einfluss auf den Pumpenvolumenstrom?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "4742d6a6-e3c5-41d9-917b-2d1b1264ab55"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q22",
+    "question": "Die hydraulische Leistung einer Pumpe wird größer, wenn",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "18841bfe-81b4-41af-906e-eca739c8de0a",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "18841bfe-81b4-41af-906e-eca739c8de0a",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "18841bfe-81b4-41af-906e-eca739c8de0a",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q23",
+    "question": "Welche Aussage ist richtig?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "584ed188-e2c7-41ab-8b03-ee1918c21c06"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "4ebbbcb8-8230-42ac-b583-5e98991b6d9b",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock",
+        "R2S-01.010 Create Service Quotation"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-01.010 Create Service Quotation",
+          "id": "97a7eedf-0474-43f1-9f60-2f48c57ec709",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "STI-01.020 Warehouse Monitoring",
+        "P2S-02.010 Make to Stock"
+      ],
+      "chunks": [
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "1499d6b1-bcdb-44cd-8056-43208e960167",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "STI-01.020 Warehouse Monitoring",
+          "id": "7eb23d4b-41f4-4de1-8efa-8724d81dc7c2",
+          "preview": "```json {   \"title\": \"EWM Monitoring and Reporting: ERP Stock Check\",   \"description\": {     \"key_message\": \"When there"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "P2S-02.010 Make to Stock",
+        "R2S-02.030 Create Service Quotation (Inhouse Repair)"
+      ],
+      "chunks": [
+        {
+          "doc": "P2S-02.010 Make to Stock",
+          "id": "3bd1fce1-755f-4057-9716-5b6ae2f6f64f",
+          "preview": "DC/PJ-GWF | 17.02.2026 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-02.030 Create Service Quotation (Inhouse Repair)",
+          "id": "ed83102a-17ca-47d3-b745-d9eae2696d83",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "R2S-02.030 Create Service Quotation (Inhouse Repair)",
+          "id": "03e8c04d-45f2-4d90-8c66-8cafe93be7b9",
+          "preview": "```json {   \"title\": \"Quotation -> Release Service Order | Step 3\",   \"description\": {     \"instructions\": \"Click on 'Cr"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q24",
+    "question": "Mit steigendem Druck wird der Pumpenvolumenstrom (bei sonst unveränderlichen Randdaten!)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "60278c1b-b307-4b8e-abc9-f64ad28bff77"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q25",
+    "question": "Warum sollte der Eingangsdruck bei Pumpen den Wert von p_abs.,min = 0,8 bar (dauerhaft) nicht unterschreiten?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "091584b8-8e48-4626-9f9f-b3827a118286"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "35n___CytroPac   Profinet___EN",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "35n___CytroPac   Profinet___EN",
+          "id": "99ce20bc-fd66-4601-a8a4-5708acecc146",
+          "preview": "DC/SSD21 | 10.2019 © Bosch Rexroth AG 2019. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Reproduktio"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "35n___CytroPac   Profinet___EN",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "35n___CytroPac   Profinet___EN",
+          "id": "99ce20bc-fd66-4601-a8a4-5708acecc146",
+          "preview": "DC/SSD21 | 10.2019 © Bosch Rexroth AG 2019. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Reproduktio"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "35n___CytroPac   Profinet___EN",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "35n___CytroPac   Profinet___EN",
+          "id": "99ce20bc-fd66-4601-a8a4-5708acecc146",
+          "preview": "DC/SSD21 | 10.2019 © Bosch Rexroth AG 2019. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Reproduktio"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "586dc28d-b281-4bd1-b3aa-82ce83854e2c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "35n___CytroPac   Profinet___EN",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "35n___CytroPac   Profinet___EN",
+          "id": "5d54a3f8-8de4-4fd0-be7b-4d5f4bdca29e",
+          "preview": "```json {   \"title\": \"HED-G | CytroPac - ProfiNET Connection\",   \"description\": {     \"Inputs from PLC\": {       \"Drive"
+        },
+        {
+          "doc": "35n___CytroPac   Profinet___EN",
+          "id": "99ce20bc-fd66-4601-a8a4-5708acecc146",
+          "preview": "DC/SSD21 | 10.2019 © Bosch Rexroth AG 2019. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Reproduktio"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q26",
+    "question": "Ermitteln Sie die jeweilige hydraulische Leistung.",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "584ed188-e2c7-41ab-8b03-ee1918c21c06",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fe6b3ddc-55c6-419a-88ec-b750ae76b5b2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "584ed188-e2c7-41ab-8b03-ee1918c21c06",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "576d3ddf-bdc8-49ce-a291-c6437e79a5a6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "21786792-ba8a-4188-b3e5-f72b7b7c03ea",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "10___Start_Organisation HED-G"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "576d3ddf-bdc8-49ce-a291-c6437e79a5a6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b1273df7-5b2f-4ed4-812f-6421481ad919",
+          "preview": "```json {   \"title\": \"Education / Career / Experience\",   \"description\": {     \"education\": {       \"initial_education\":"
+        },
+        {
+          "doc": "10___Start_Organisation HED-G",
+          "id": "b83f39e3-1d41-43d4-b079-2d5c3bb6c345",
+          "preview": "| 01.06.2014 |  | Thomas Väth DC-IA/SSD21 |  | © Bosch Rexroth AG 2014. Alle Rechte vorbehalten, auch bzgl. jeder Verfüg"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "21786792-ba8a-4188-b3e5-f72b7b7c03ea",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q27",
+    "question": "Bei Hydropumpen spricht man von Verdrängungsvolumen. Wie lautet die entsprechende Bezeichnung bei Hydromotoren?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "a3f6e298-37a3-4a32-aa89-3578070cd0de"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1fc57503-faa9-4822-b595-7d0df71a0b20",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1fc57503-faa9-4822-b595-7d0df71a0b20",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a4cf74d6-ec90-4ddd-a96b-ec90a2b7ea4e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q28",
+    "question": "Benennen Sie die mechanischen und hydraulischen „Eingangs- und Ausgangsgrößen“ von Pumpen und Motoren.",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "584ed188-e2c7-41ab-8b03-ee1918c21c06"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "65f4abd8-98bf-4e1e-9276-13a544bcc3b2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "22e4a9fd-72b8-425b-8b49-78730ec9a57d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "65f4abd8-98bf-4e1e-9276-13a544bcc3b2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "22e4a9fd-72b8-425b-8b49-78730ec9a57d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "22e4a9fd-72b8-425b-8b49-78730ec9a57d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q29",
+    "question": "Warum werden Hydrozylinder im Allgemeinen mit Endlagendämpfungen ausgerüstet?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "8322fe0d-ee63-4299-8bb8-58e153ec6cac"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8322fe0d-ee63-4299-8bb8-58e153ec6cac",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "53e3b3cf-7be9-46b1-89d4-45f307cba478",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8322fe0d-ee63-4299-8bb8-58e153ec6cac",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b38b8eba-4816-42d5-b7f2-1655e09a3701",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "ebd6824e-cbf8-479f-825d-355eb7b660d1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a5eb53e6-47c2-4b38-95cc-41be142eaf9d",
+          "preview": "```json {   \"title\": \"Einleitung | Schaltplan\",   \"description\": {     \"schematisch\": {       \"content\": \"A schematic di"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "661c8cb7-8aff-4e22-bb19-c9b845471698",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 06_Hydrozylinder_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q30",
+    "question": "Welche Aufgabe haben Sperrventile?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "ac78877b-2c1a-466d-b534-72dc4b16fd77"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a5fd966a-9d58-4608-b894-a89601b35d7d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q31",
+    "question": "Welche Dichtelementformen werden bei Sperrventilen eingesetzt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "06f1c2da-b90a-4d46-8cf7-2fadf3035980"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a5fd966a-9d58-4608-b894-a89601b35d7d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q32",
+    "question": "Welche Aussage hinsichtlich des Dichtverhaltens bei Sperrventilen ist korrekt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "06f1c2da-b90a-4d46-8cf7-2fadf3035980",
+      "fe51da64-4a59-40aa-8de1-f100e760c8c8"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a5fd966a-9d58-4608-b894-a89601b35d7d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "98fff619-3b51-4d14-b2ad-7d151570353b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 09_Sperrventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f0e79e12-e3e4-4039-beca-94b04dd27830",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q33",
+    "question": "Was ist die Aufgabe von Wegeventilen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "176eeae3-ccd9-46d1-b790-8ac8d93123c1"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "17a874af-9356-4e32-944e-c6737a9019d6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q34",
+    "question": "Welche beiden gängigen Varianten existieren bei den Wegeventilen? Welche von beiden weist im Allgemeinen Leckage auf und warum?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "02f345d8-6116-4266-8dfc-dbdc397556b1",
+      "fe51da64-4a59-40aa-8de1-f100e760c8c8"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dfec230b-c81b-45e1-8f65-52ffa3379f4b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "65f4abd8-98bf-4e1e-9276-13a544bcc3b2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "dfec230b-c81b-45e1-8f65-52ffa3379f4b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "17a874af-9356-4e32-944e-c6737a9019d6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "22e4a9fd-72b8-425b-8b49-78730ec9a57d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q35",
+    "question": "Wodurch wird das Schaltverhalten eines Schieberventils maßgeblich beeinflusst? Bei welcher Variante treten 'positive' Druckspitzen auf?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "b797d199-6274-4120-8df9-e5f622d06516"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fe51da64-4a59-40aa-8de1-f100e760c8c8",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c5b4fc69-d366-4313-a828-eb765059a83a",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "d6fd51a4-3ea5-4ca0-96d7-30e5738536f2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q36",
+    "question": "Wo sind Wegesitzventile hauptsächlich anzutreffen und warum?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "045fb1c5-7070-42ac-8ef3-9cbaa9673ed0",
+      "fe51da64-4a59-40aa-8de1-f100e760c8c8"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9df7074e-b772-4c2a-8a8a-da2de491e045",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q37",
+    "question": "Wann und warum werden vorgesteuerte Wegeventile eingesetzt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "02e8cf60-e6c0-4931-babc-89bb0c232938"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "08f401dc-f98d-4bdd-a586-20ae0caf86e7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "17a874af-9356-4e32-944e-c6737a9019d6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f292d2cd-e751-4b3c-a661-c395365bd729",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q38",
+    "question": "Durch welche 4 Hauptkriterien wird die Qualität eines Wegeventils mit Schieber gekennzeichnet?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "c6c13d96-c9d1-4d1e-b72f-bc7c2e89b020"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "17a874af-9356-4e32-944e-c6737a9019d6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "841a5ba7-151f-4c12-ba8a-94f6c0aca255",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 10_Wegeventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q39",
+    "question": "Welche Aussage ist korrekt? Welche NG's werden in der Stationärhydraulik im Allgemeinen direktgesteuert? Welche vorgesteuert?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "6561cd3b-1b14-4557-bfe3-2ddc8d1261b6"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "99271718-585f-488c-a34c-5c21285cecbf",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f01240a0-dc96-460d-9ca9-a3cacb98d6f1",
+          "preview": "```json {   \"title\": \"Einleitung | Anwendung Bagger\",   \"description\": {     \"topic\": \"Introduction to Excavator Applica"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b1a22c59-9186-4c75-a903-4f33ef4eb706",
+          "preview": "```json {   \"title\": \"Hydraulik Einleitung\",   \"description\": \"This PowerPoint slide introduces the topic of hydraulics"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "72093beb-3698-4eb8-b772-3824a9fb0454",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "99271718-585f-488c-a34c-5c21285cecbf",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "15a10b53-32ce-445f-b38e-6b2f29d215b0",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 01_Hydraulik_Einleitung_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "99271718-585f-488c-a34c-5c21285cecbf",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q40",
+    "question": "Nach dem Öffnen eines Druckbegrenzungsventils (DB)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "565ea43c-e8da-47a3-aa38-3c020c9d0093"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "3a49e389-e06a-4acd-8aaa-2192c8d032fa",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q41",
+    "question": "Wo wird bei einem direktbetätigten Druckbegrenzungsventil der Steuerdruck abgegriffen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "565ea43c-e8da-47a3-aa38-3c020c9d0093"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "21786792-ba8a-4188-b3e5-f72b7b7c03ea",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q42",
+    "question": "Zwei Druckbegrenzungsventile wurden separat bei einem definierten Volumenstrom qv auf dem Prüfstand auf einen Druck von jeweils 60 bar eingestellt. Welcher Druck wird vor dem ersten abgelesen, wenn beide Ventile in Reihe geschaltet und von qv durchströmt werden?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q43",
+    "question": "Welcher Druck würde sich einstellen, wenn die beiden Ventile parallel geschaltet werden?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8332e39b-aef7-4852-9e1b-5b5b3ba42d0d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "795037e6-24cc-4271-b118-a72d919fba44",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0de17922-bad1-45ed-b6d8-fe0954905582",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q44",
+    "question": "Wann werden vorgesteuerte Druckbegrenzungsventile hauptsächlich eingesetzt?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "14d442e9-cf00-4deb-a6a7-806e3a8b5ca4"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "14d442e9-cf00-4deb-a6a7-806e3a8b5ca4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q45",
+    "question": "Wie sehen die Kennlinien von direktbetätigten und vorgesteuerten Druckbegrenzungsventilen prinzipiell aus?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "d6fd51a4-3ea5-4ca0-96d7-30e5738536f2"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "14d442e9-cf00-4deb-a6a7-806e3a8b5ca4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q46",
+    "question": "Wo wird das Steuerdrucksignal bei Druckreduzierventilen abgegriffen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "47ed0a2c-6d21-4736-9d33-65ad57bc3971"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "3a49e389-e06a-4acd-8aaa-2192c8d032fa",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4814a102-3ef0-4e5c-b8c9-399bcfc4cced",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "3a49e389-e06a-4acd-8aaa-2192c8d032fa",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "df2c9ef6-0fb9-46f0-bd3a-fb87d1ac19d2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 08_Hydroventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "cc690a14-ae0d-4bdb-a7da-b8fd957d868c",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "1007feca-370b-4b5c-a246-0e90cff945d4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q47",
+    "question": "Was ist die Aufgabe von Stromventilen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "623bc47b-de9b-45b6-b5d8-eccc5f491202"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "19de99b2-5e27-4910-9b4f-8eb1ff14c679",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4e5c56b4-f4ef-4288-a448-3fff0878210f",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "19de99b2-5e27-4910-9b4f-8eb1ff14c679",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4e5c56b4-f4ef-4288-a448-3fff0878210f",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q48",
+    "question": "Welche zwei Drosseltypen kennen Sie?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "b3085d33-e90b-4d5c-8b09-2a2f8dfca186"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9e884c15-1f3b-4c64-9797-4f4a7845fd3e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "198ee80b-6827-4cab-8350-ddefad888ff2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a8513b6f-2eb0-49f6-a6e6-e60083adbb26",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9e884c15-1f3b-4c64-9797-4f4a7845fd3e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "d6e7c829-e0fd-4a7c-b62e-7ae0159f1a8a",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 07_Kavitation_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzg"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8c41480d-bd6e-4a27-b894-aeaaab016fba",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 07_Kavitation_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzg"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "198ee80b-6827-4cab-8350-ddefad888ff2",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q49",
+    "question": "Welche Faktoren beeinflussen die Höhe des Volumenstroms durch eine Blende?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "9e884c15-1f3b-4c64-9797-4f4a7845fd3e",
+      "fc5f64e1-1abc-4f6e-afd9-d20148976bf5"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9e884c15-1f3b-4c64-9797-4f4a7845fd3e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 12_Stromventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "cd83c993-289d-4c42-b87d-3cf8a15889bc",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "83bfbc78-08e8-48cd-ab77-01723cd551b6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q50",
+    "question": "Bei Vervierfachung des an einer Blende anstehenden Δp's (= Druckgefälles)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "b3085d33-e90b-4d5c-8b09-2a2f8dfca186"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q51",
+    "question": "Hat bei temperaturkompensierten 2-Wege-Stromregelventilen der Lastdruck einen Einfluss auf den Volumenstrom? (mit Begründung)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "252e345b-d07a-452a-ab46-5952bbe15d3a",
+      "4447d930-6e2d-40f7-9810-793a17162137"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0c23d263-77c9-42a5-a66b-f9ce70bfd7f1",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "583647a2-ddb9-4379-a393-26dbeb2dce42",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9d86e3a2-2444-4013-8bd4-a1487b55bed6",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q52",
+    "question": "Welches Flüssigkeitsvolumen VB sollte in der Stationärhydraulik der Behälter aufweisen?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "4742d6a6-e3c5-41d9-917b-2d1b1264ab55",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "a24622d3-1653-4f92-a46d-5f4845dcdaa3",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "088f13cc-5b2e-49cf-8dfc-c26c9e881019",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "b23bb01a-fe50-412d-a501-8684ca0e6442",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q53",
+    "question": "Nennen Sie 4 Hauptaufgaben der Druckflüssigkeiten.",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "6d08cd65-272d-4d97-874f-150a58e5af49"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "29bf31db-ec7a-46f5-a2a2-bfb72eabb92b",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8b67f7d-4cc9-4614-a224-723bc73f145e",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "8332e39b-aef7-4852-9e1b-5b5b3ba42d0d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c6190d49-4124-43ad-a2c8-07e60ffbd291",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7b1c32-a7f5-4ee8-a99d-52a1e30b1ce4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7b1c32-a7f5-4ee8-a99d-52a1e30b1ce4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 05_Hydromotoren_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c6190d49-4124-43ad-a2c8-07e60ffbd291",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 11_Druckventile_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch b"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q54",
+    "question": "Mit sinkender Öl-Temperatur wird das Öl",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "bad3ef5e-e226-4843-a96c-c255b403b8bf"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "44b0b59b-7fca-4a6f-b6a9-2e44f0bdc419",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "44b0b59b-7fca-4a6f-b6a9-2e44f0bdc419",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q55",
+    "question": "Welche Aussage ist richtig? (gleicher Druck in allen 3 Fällen)",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "1e2baf3b-72bd-4ef9-bc8a-49ea082033d6"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "f76812f9-b5c3-4556-b24f-00a678e37fe4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "827b3dd0-9aec-4d64-92f8-1c28187b3544",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "56cf3231-200e-4f58-899b-0f58a9c47df7",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "fc9325e9-1f26-41c3-9b00-975aa737f637",
+          "preview": "```json {   \"title\": \"Bosch Rexroth Academy: Comprehensive Hydraulics Training and System Overview\",   \"description\": \"T"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "e8c2049b-d1dd-4a1c-aac0-a26c2c63010d",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 04_Hydropumpen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bz"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q56",
+    "question": "Was bewirkt ungelöste Luft in der Druckflüssigkeit hinsichtlich seiner Zusammendrückbarkeit?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "1e2baf3b-72bd-4ef9-bc8a-49ea082033d6"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "9db5de7d-3a3f-486d-b113-384f7291e706",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 02_Physikalische_Grundlagen_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbeha"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "7f7355bb-8618-4641-9b14-807948b7d611",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q57",
+    "question": "Was könnten die Ursachen von a) Dunkelfärbung, b) milchiger Trübung, c) Luftbläschen im Öl sein?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "b831dfb0-80c0-46fa-88b4-78d53e3f6ed0"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "Q2E-02.060 Sales Logistics Customer Complaint FIORI",
+          "id": "898aaf1b-f1a0-495e-8587-4d761310e215",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0cfc9410-dc33-4bcd-97b2-ea722fe90142",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "Q2E-02.060 Sales Logistics Customer Complaint FIORI",
+          "id": "898aaf1b-f1a0-495e-8587-4d761310e215",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "Q2E-02.060 Sales Logistics Customer Complaint FIORI",
+          "id": "898aaf1b-f1a0-495e-8587-4d761310e215",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "Q2E-02.060 Sales Logistics Customer Complaint FIORI",
+          "id": "8c8913ae-8894-4352-9f1f-8a40cf193a30",
+          "preview": "```json {   \"title\": \"Comprehensive Guide to Sales & Logistics Customer Complaint Management with Quality Notifications\""
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Q2E-02.060 Sales Logistics Customer Complaint FIORI"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "0cfc9410-dc33-4bcd-97b2-ea722fe90142",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "231291e4-3d90-4eb4-8e9b-c01f44d2eacb",
+          "preview": "```json {   \"title\": \"Einleitung | Meilensteine\",   \"description\": [     {       \"section\": \"Wasserhydraulik\",       \"ti"
+        },
+        {
+          "doc": "Q2E-02.060 Sales Logistics Customer Complaint FIORI",
+          "id": "898aaf1b-f1a0-495e-8587-4d761310e215",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q58",
+    "question": "Was ist die Hauptaufgabe von Filtern?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [
+      "630a39c8-da7c-4581-b3f8-6512574feb49"
+    ],
+    "entity_khop_legacy": {
+      "docs": [
+        "O2C-00.005 Process Control Elements"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "8c0bcd70-bf1f-4f11-ab8b-6570eab89296",
+          "preview": "```json {   \"title\": \"Delivery Date Clarification - App Structure\",   \"description\": {     \"section\": \"2.3 App Structure"
+        },
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "ba023894-64f0-4748-bb11-6d6d4d9a4aa5",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "O2C-00.005 Process Control Elements",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "8c0bcd70-bf1f-4f11-ab8b-6570eab89296",
+          "preview": "```json {   \"title\": \"Delivery Date Clarification - App Structure\",   \"description\": {     \"section\": \"2.3 App Structure"
+        },
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "ba023894-64f0-4748-bb11-6d6d4d9a4aa5",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "630a39c8-da7c-4581-b3f8-6512574feb49",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "75ed1a6d-6f27-4a18-a295-cd447f9c7be4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "O2C-00.005 Process Control Elements"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "ba023894-64f0-4748-bb11-6d6d4d9a4aa5",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "563d3888-7148-4904-a3f0-af3520dbb439",
+          "preview": "```json {   \"title\": \"Unified Summary of EDI IDoc Monitoring, Delivery Date Clarification, and Sales Order Tracking Apps"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "O2C-00.005 Process Control Elements",
+        "01_Teilnehmerunterlage_RT04-004_DE"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "74f6c1c4-1c10-478e-8ee3-cda26bc0cfa3",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "O2C-00.005 Process Control Elements",
+          "id": "ba023894-64f0-4748-bb11-6d6d4d9a4aa5",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "630a39c8-da7c-4581-b3f8-6512574feb49",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 03_Graphische_Symbole_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten,"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "75ed1a6d-6f27-4a18-a295-cd447f9c7be4",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q59",
+    "question": "Kann frisches Fassöl bedenkenlos eingefüllt werden?",
+    "golden": [
+      "01_teilnehmerunterlage_rt04-004_de"
+    ],
+    "golden_chunk": [],
+    "entity_khop_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Kapitel8"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "39ea150c-9555-4e05-8501-5c7e404b77bf",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "Kapitel8",
+          "id": "46f9df0d-114c-4d87-a442-7cbb438b9b3f",
+          "preview": "The slide features the title \"Data is the new oil!\" prominently at the top. Below the title, there is an illustration of"
+        },
+        {
+          "doc": "Kapitel8",
+          "id": "5d3e9045-b884-458b-a08c-b070d98bc2a4",
+          "preview": "The video presentation focuses on the concept of data as a critical and valuable resource in the modern world, likening"
+        }
+      ]
+    },
+    "entity_khop_merge": {
+      "docs": [
+        "O2C-03.051 Execute Transport - Loading",
+        "O2C-04.011 Manage Customer Billing - Free of Charge"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-03.051 Execute Transport - Loading",
+          "id": "26f8b9f5-5675-4a98-89e9-6fcf74a21fe2",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "O2C-03.051 Execute Transport - Loading",
+          "id": "6d21146e-5546-4173-9d56-6e3bfae81e7b",
+          "preview": "```json {   \"title\": \"Future Process: Loading Processes\",   \"description\": {     \"mainConcept\": \"Loading processes in tr"
+        },
+        {
+          "doc": "O2C-04.011 Manage Customer Billing - Free of Charge",
+          "id": "f45ad509-c6ce-43db-aef7-1334e60a3214",
+          "preview": "```json {   \"title\": \"Process Overview - Good to know | Definition\",   \"description\": {     \"key_points\": [       \"Bosch"
+        }
+      ]
+    },
+    "ppr_legacy": {
+      "docs": [
+        "01_Teilnehmerunterlage_RT04-004_DE",
+        "Kapitel8"
+      ],
+      "chunks": [
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "c6149346-3897-42d2-a754-15ac3b186736",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "01_Teilnehmerunterlage_RT04-004_DE",
+          "id": "39ea150c-9555-4e05-8501-5c7e404b77bf",
+          "preview": "Bosch Rexroth Academy | 2024-01 | 13_Fluide_RT04-004_DE | © Bosch Rexroth AG 2023. Alle Rechte vorbehalten, auch bzgl. j"
+        },
+        {
+          "doc": "Kapitel8",
+          "id": "46f9df0d-114c-4d87-a442-7cbb438b9b3f",
+          "preview": "The slide features the title \"Data is the new oil!\" prominently at the top. Below the title, there is an illustration of"
+        }
+      ]
+    },
+    "ppr_merge": {
+      "docs": [
+        "O2C-03.051 Execute Transport - Loading",
+        "O2C-03.020 Package Goods Standards"
+      ],
+      "chunks": [
+        {
+          "doc": "O2C-03.051 Execute Transport - Loading",
+          "id": "26f8b9f5-5675-4a98-89e9-6fcf74a21fe2",
+          "preview": "DC/PJ-GWF | 24.01.2025 | © Bosch Rexroth AG 2025. Alle Rechte vorbehalten, auch bzgl. jeder Verfügung, Verwertung, Repro"
+        },
+        {
+          "doc": "O2C-03.020 Package Goods Standards",
+          "id": "428fa7b8-1691-44fb-8f61-fdadded7f3a8",
+          "preview": "```json {   \"title\": \"Future Process: EWM Packing\",   \"description\": {     \"section\": \"4.2) EWM Packing - Packaging Hint"
+        },
+        {
+          "doc": "O2C-03.051 Execute Transport - Loading",
+          "id": "6d21146e-5546-4173-9d56-6e3bfae81e7b",
+          "preview": "```json {   \"title\": \"Future Process: Loading Processes\",   \"description\": {     \"mainConcept\": \"Loading processes in tr"
+        }
+      ]
+    }
+  }
+]

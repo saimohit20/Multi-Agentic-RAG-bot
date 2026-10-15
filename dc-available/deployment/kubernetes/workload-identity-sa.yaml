@@ -1,0 +1,29 @@
+# =============================================================================
+# workload-identity-sa.yaml  —  the pod's Azure identity (for Azure OpenAI).
+#
+# WHY: your app calls Azure OpenAI using an Azure AD identity, not a key.
+# "Workload Identity" lets a Kubernetes pod act AS an Azure Managed Identity,
+# so DefaultAzureCredential() inside the container gets tokens automatically —
+# no secret to store or rotate.
+#
+# ONE-TIME AZURE SETUP (your team does this in Phase 0, then fills the client-id):
+#   1. Create a User-Assigned Managed Identity (e.g. 'available-identity').
+#   2. Grant it the role  "Cognitive Services OpenAI User"  on your Azure OpenAI
+#      resource  (so it may call gpt-4o).
+#   3. Enable OIDC + Workload Identity on the AKS cluster.
+#   4. Create a Federated Credential linking that identity to THIS ServiceAccount
+#      (namespace: available-2, name: available-workload-identity).
+#   5. Put the identity's client-id in the annotation below.
+#
+# Any pod that sets  serviceAccountName: available-workload-identity  AND the
+# label  azure.workload.identity/use: "true"  then authenticates as that identity.
+#
+# Apply:  kubectl apply -f deployment/kubernetes/workload-identity-sa.yaml
+# =============================================================================
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: available-workload-identity
+  namespace: available-2
+  annotations:
+    azure.workload.identity/client-id: "1136bd00-3103-4d00-9a84-9cdef862a9b8"
