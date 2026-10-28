@@ -1,0 +1,75 @@
+site_name: AVAILABLE 2.0
+site_description: User, developer, and operations documentation for AVAILABLE 2.0.
+docs_dir: content
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  font: false
+  palette:
+    primary: teal
+    accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
+  - Getting Started:
+    - Local Setup: getting-started/index.md
+  - User Guide:
+    - Using AVAILABLE: user-guide/index.md
+  - Architecture:
+    - System Overview: architecture/index.md
+    - Hybrid Retrieval: architecture/retrieval.md
+    - Knowledge Graph: architecture/knowledge-graph.md
+    - Document Trust: architecture/trust.md
+  - Operations:
+    - Data Pipeline: operations/pipeline.md
+    - SharePoint: operations/sharepoint.md
+    - Qdrant Setup: operations/qdrant-setup.md
+    - Opik Setup: operations/opik-setup.md
+    - Observability: operations/observability.md
+    - RICH Interviews: operations/rich.md
+  - Deployment:
+    - Local Docker: deployment/local-docker.md
+    - Azure AKS: deployment/azure-aks.md
+  - Development:
+    - Developer Guide: development/index.md
+    - Graph Retrieval Design: development/graph-retrieval.md
+    - Personalized PageRank: development/ppr.md
+    - Entity-Hop Approaches: development/entity-hop.md
+    - Vector Retrieval Design: development/vector-retrieval.md
+    - Hybrid Retrieval Design: development/hybrid-retrieval.md
+    - Trust Scoring Design: development/trust-scoring.md
+    - Evaluations:
+      - Retrieval Evaluation: development/retrieval-evaluation.md
+      - Generator Evaluation: development/generator-evaluation.md
+      - Trust Score Experiments: development/trust-score-experiments.md
+    - Documentation Maintenance: development/documentation.md
+  - Reference:
+    - Configuration: reference/configuration.md
+    - Troubleshooting: reference/troubleshooting.md
+    - Glossary: reference/glossary.md
